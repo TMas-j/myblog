@@ -93,7 +93,7 @@ git submodule add https://github.com/adityatelange/hugo-PaperMod themes/PaperMod
 hugo server -D
 ```
 
-http://localhost:1313 での表示確認できた。
+ブラウザで、http://localhost:1313 にアクセスして表示されればOK。
 
 
 ---
@@ -119,6 +119,8 @@ git remote add origin https://github.com/username/myblog.git
 git push -u origin main
 ```
 
+---
+
 ## ⑤ Cloudflare Pagesで公開
 
 Cloudflare Pagesで公開するために、以下の順で設定する。
@@ -138,6 +140,8 @@ Cloudflare Pagesで公開するために、以下の順で設定する。
 
 hugo.toml の baseUrl を本番URLに変更して再push。
 
+---
+
 ## 感想
 
 ローカルで動いたときも嬉しかったけど、本番URLが発行された瞬間はやっぱりテンションが上がった。
@@ -151,6 +155,8 @@ hugo.toml の baseUrl を本番URLに変更して再push。
 - 無料で運用できる
 
 というのはかなり便利。
+
+---
 
 ## 今後やりたいこと
 

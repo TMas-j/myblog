@@ -256,7 +256,7 @@ hugo公式ではテーマがたくさん紹介されている。">
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git submodule add https://github.com/adityatelange/hugo-PaperMod themes/PaperMod
 </span></span></code></pre></div><p>ローカルで動作確認。</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo server -D
-</span></span></code></pre></div><p>http://localhost:1313 での表示確認できた。</p>
+</span></span></code></pre></div><p>ブラウザで、http://localhost:1313 にアクセスして表示されればOK。</p>
 <hr>
 <h2 id="-デザイン調整">③ デザイン調整<a hidden class="anchor" aria-hidden="true" href="#-デザイン調整">#</a></h2>
 <p>hugo.tomlを編集して、</p>
@@ -273,7 +273,8 @@ hugo公式ではテーマがたくさん紹介されている。">
 </span></span><span style="display:flex;"><span>git branch -M main
 </span></span><span style="display:flex;"><span>git remote add origin https://github.com/username/myblog.git
 </span></span><span style="display:flex;"><span>git push -u origin main
-</span></span></code></pre></div><h2 id="-cloudflare-pagesで公開">⑤ Cloudflare Pagesで公開<a hidden class="anchor" aria-hidden="true" href="#-cloudflare-pagesで公開">#</a></h2>
+</span></span></code></pre></div><hr>
+<h2 id="-cloudflare-pagesで公開">⑤ Cloudflare Pagesで公開<a hidden class="anchor" aria-hidden="true" href="#-cloudflare-pagesで公開">#</a></h2>
 <p>Cloudflare Pagesで公開するために、以下の順で設定する。</p>
 <ul>
 <li>Cloudflareのアカウントを作成して、Consoleにアクセスする</li>
@@ -292,6 +293,7 @@ hugo公式ではテーマがたくさん紹介されている。">
 </ul>
 <p>デプロイすると、URLが発行されてアクセスできるようになる。</p>
 <p>hugo.toml の baseUrl を本番URLに変更して再push。</p>
+<hr>
 <h2 id="感想">感想<a hidden class="anchor" aria-hidden="true" href="#感想">#</a></h2>
 <p>ローカルで動いたときも嬉しかったけど、本番URLが発行された瞬間はやっぱりテンションが上がった。</p>
 <p>「自分のサイトがインターネット上にある」という感覚は特別。</p>
@@ -302,6 +304,7 @@ hugo公式ではテーマがたくさん紹介されている。">
 <li>無料で運用できる</li>
 </ul>
 <p>というのはかなり便利。</p>
+<hr>
 <h2 id="今後やりたいこと">今後やりたいこと<a hidden class="anchor" aria-hidden="true" href="#今後やりたいこと">#</a></h2>
 <ul>
 <li>favicon追加</li>
