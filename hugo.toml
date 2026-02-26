@@ -1,0 +1,39 @@
+baseURL = "https://example.com"
+languageCode = "ja"
+title = "遊び場 (ASO-VIVA!)"
+theme = "PaperMod"
+
+[pagination]
+  pagerSize = 10
+
+[params]
+  author = "TMas"
+  description = "技術と日常のログ"
+  
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  defaultTheme = "auto"  # ダークモード自動
+  ShowToc = true
+  TocOpen = false
+  ShowTagCloud = true
+
+[params.homeInfoParams]
+  Title = "遊び場 (ASO-VIVA!)"
+  Content = "日常や技術的なことなど、雑多なことを書いています"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+[[menu.main]]
+  name = "Tags"
+  url = "/tags/"
+  weight = 10
+
+[[menu.main]]
+  name = "Categories"
+  url = "/categories/"
+  weight = 20
