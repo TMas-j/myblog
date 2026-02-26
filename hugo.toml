@@ -1,4 +1,4 @@
-baseURL = "https://example.com"
+baseURL = "https://myblog-ee8.pages.dev/"
 languageCode = "ja"
 title = "遊び場 (ASO-VIVA!)"
 theme = "PaperMod"
@@ -9,7 +9,7 @@ theme = "PaperMod"
 [params]
   author = "TMas"
   description = "技術と日常のログ"
-  
+
   ShowReadingTime = true
   ShowShareButtons = true
   ShowPostNavLinks = true
