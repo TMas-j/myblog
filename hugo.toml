@@ -20,6 +20,8 @@ theme = "PaperMod"
   TocOpen = false
   ShowTagCloud = true
 
+  googleSiteVerification = "IcGbzKJ0eP36FQsbRxoSFD-dE-mdv-ovJw2Vc-FhmoI"
+
 [params.homeInfoParams]
   Title = "遊び場 (ASO-VIVA!)"
   Content = "日常や技術的なことなど、雑多なことを書いています"
