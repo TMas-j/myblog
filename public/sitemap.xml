@@ -2,7 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/tags/blog/</loc>
+    <lastmod>2026-02-26T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2026-02-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/cloudflare/</loc>
+    <lastmod>2026-02-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/github/</loc>
+    <lastmod>2026-02-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/hugo/</loc>
+    <lastmod>2026-02-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/hugo-cloudflare-blog/</loc>
     <lastmod>2026-02-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/</loc>
@@ -11,7 +26,13 @@
     <loc>http://localhost:1313/tags/</loc>
     <lastmod>2026-02-26T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/wsl/</loc>
+    <lastmod>2026-02-26T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/posts/first-post/</loc>
+    <lastmod>2026-02-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/%E6%8A%80%E8%A1%93/</loc>
     <lastmod>2026-02-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/%E6%97%A5%E5%B8%B8/</loc>

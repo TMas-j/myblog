@@ -5,11 +5,11 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="noindex, nofollow">
-<title>Categories | 遊び場 (ASO-VIVA!)</title>
+<title>Cloudflare | 遊び場 (ASO-VIVA!)</title>
 <meta name="keywords" content="">
 <meta name="description" content="技術と日常のログ">
 <meta name="author" content="TMas">
-<link rel="canonical" href="http://localhost:1313/categories/">
+<link rel="canonical" href="http://localhost:1313/tags/cloudflare/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.eca7f6b2a9c459f4cf4b89080e2e248a293630c24f7ae946f554f2ae4b8e4a0a.css" integrity="sha256-7Kf2sqnEWfTPS4kIDi4kiik2MMJPeulG9VTyrkuOSgo=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
@@ -18,8 +18,8 @@
 <link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/categories/index.xml" title="rss">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/categories/">
+<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/tags/cloudflare/index.xml" title="rss">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/tags/cloudflare/">
 <noscript>
     <style>
         #theme-toggle,
@@ -109,25 +109,38 @@
             </li>
             <li>
                 <a href="http://localhost:1313/categories/" title="Categories">
-                    <span class="active">Categories</span>
+                    <span>Categories</span>
                 </a>
             </li>
         </ul>
     </nav>
 </header>
-<main class="main">
-<header class="page-header">
-    <h1>Categories</h1>
+<main class="main"> 
+<header class="page-header"><div class="breadcrumbs"><a href="http://localhost:1313/">ホーム</a>&nbsp;»&nbsp;<a href="http://localhost:1313/tags/">Tags</a></div>
+  <h1>
+    Cloudflare
+  </h1>
 </header>
 
-<ul class="terms-tags">
-    <li>
-        <a href="http://localhost:1313/categories/%E6%8A%80%E8%A1%93/">技術 <sup><strong><sup>1</sup></strong></sup> </a>
-    </li>
-    <li>
-        <a href="http://localhost:1313/categories/%E6%97%A5%E5%B8%B8/">日常 <sup><strong><sup>1</sup></strong></sup> </a>
-    </li>
-</ul>
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Hugo &#43; Cloudflare Pagesでブログを公開するまでの記録
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>はじめに 静的サイトでブログを作ってみたいと思い、Hugoを使って構築し、最終的にCloudflare Pagesで公開するまでをやってみた。
+そのセットアップの記録。
+やりたかったこと シンプルなデザイン Markdownで記事を書きたい GitHubと連携したい 無料で公開したい Cloudflareを使ってみたい 開発環境 WSL (Ubuntu) Hugo（extended版） テーマ：PaperMod GitHub Cloudflare Pages ① Hugoのセットアップ まずはHugoをインストール。
+https://github.com/gohugoio/hugo/releases/を参考に最新版(v0.157.0)を使用。
+wget https://github.com/gohugoio/hugo/releases/download/v0.157.0/hugo_extended_0.157.0_linux-amd64.deb dpkg -i hugo_extended_0.157.0_linux-amd64.deb version確認
+$ hugo version hugo v0.157.0-7747abbb316b03c8f353fd3be62d5011fa883ee6&#43;extended linux/amd64 BuildDate=2026-02-25T16:38:33Z VendorInfo=gohugoio 新規サイト作成：
+hugo new site myblog cd myblog ※ 注意 最初、aptでインストールしたが、Hugo(v0.123.7)がインストールされてしまい、 後述のPaperModの要求バージョン(v0.146.0以上)を満たさなかったので注意。
+$ sudo apt install hugo $ hugo version hugo v0.123.7&#43;extended linux/amd64 BuildDate=2025-07-18T03:41:49Z VendorInfo=ubuntu:0.123.7-1ubuntu0.3 $ hugo server -D WARN Module &#34;PaperMod&#34; is not compatible with this Hugo version: Min 0.146.0; ②テーマ導入（PaperMod） hugo公式ではテーマがたくさん紹介されている。
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2026-02-26 00:00:00 +0000 UTC'>February 26, 2026</span>&nbsp;·&nbsp;<span>1 分</span>&nbsp;·&nbsp;<span>TMas</span></footer>
+  <a class="entry-link" aria-label="post link to Hugo &#43; Cloudflare Pagesでブログを公開するまでの記録" href="http://localhost:1313/posts/hugo-cloudflare-blog/"></a>
+</article>
     </main>
     
 <footer class="footer">

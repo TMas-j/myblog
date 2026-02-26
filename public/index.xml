@@ -9,6 +9,57 @@
     <lastBuildDate>Thu, 26 Feb 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Hugo &#43; Cloudflare Pagesでブログを公開するまでの記録</title>
+      <link>http://localhost:1313/posts/hugo-cloudflare-blog/</link>
+      <pubDate>Thu, 26 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/hugo-cloudflare-blog/</guid>
+      <description>&lt;h2 id=&#34;はじめに&#34;&gt;はじめに&lt;/h2&gt;
+&lt;p&gt;静的サイトでブログを作ってみたいと思い、Hugoを使って構築し、最終的にCloudflare Pagesで公開するまでをやってみた。&lt;/p&gt;
+&lt;p&gt;そのセットアップの記録。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;やりたかったこと&#34;&gt;やりたかったこと&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;シンプルなデザイン&lt;/li&gt;
+&lt;li&gt;Markdownで記事を書きたい&lt;/li&gt;
+&lt;li&gt;GitHubと連携したい&lt;/li&gt;
+&lt;li&gt;無料で公開したい&lt;/li&gt;
+&lt;li&gt;Cloudflareを使ってみたい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;開発環境&#34;&gt;開発環境&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;WSL (Ubuntu)&lt;/li&gt;
+&lt;li&gt;Hugo（extended版）&lt;/li&gt;
+&lt;li&gt;テーマ：PaperMod&lt;/li&gt;
+&lt;li&gt;GitHub&lt;/li&gt;
+&lt;li&gt;Cloudflare Pages&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-hugoのセットアップ&#34;&gt;① Hugoのセットアップ&lt;/h2&gt;
+&lt;p&gt;まずはHugoをインストール。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/gohugoio/hugo/releases/&#34;&gt;https://github.com/gohugoio/hugo/releases/&lt;/a&gt;を参考に最新版(v0.157.0)を使用。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;wget https://github.com/gohugoio/hugo/releases/download/v0.157.0/hugo_extended_0.157.0_linux-amd64.deb
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;dpkg -i hugo_extended_0.157.0_linux-amd64.deb
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;version確認&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ hugo version
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo v0.157.0-7747abbb316b03c8f353fd3be62d5011fa883ee6+extended linux/amd64 BuildDate&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;2026-02-25T16:38:33Z VendorInfo&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;gohugoio
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;新規サイト作成&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo new site myblog
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cd myblog
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h3 id=&#34;-注意&#34;&gt;※ 注意&lt;/h3&gt;
+&lt;p&gt;最初、aptでインストールしたが、Hugo(v0.123.7)がインストールされてしまい、
+後述のPaperModの要求バージョン(v0.146.0以上)を満たさなかったので注意。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ sudo apt install hugo
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ hugo version
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo v0.123.7+extended linux/amd64 BuildDate&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;2025-07-18T03:41:49Z VendorInfo&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;ubuntu:0.123.7-1ubuntu0.3
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ hugo server -D
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;WARN Module &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;PaperMod&amp;#34;&lt;/span&gt; is not compatible with this Hugo version: Min 0.146.0;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h2 id=&#34;テーマ導入papermod&#34;&gt;②テーマ導入（PaperMod）&lt;/h2&gt;
+&lt;p&gt;hugo公式ではテーマがたくさん紹介されている。&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>はじめての投稿</title>
       <link>http://localhost:1313/posts/first-post/</link>
       <pubDate>Thu, 26 Feb 2026 00:00:00 +0000</pubDate>
