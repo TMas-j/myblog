@@ -18,6 +18,7 @@ theme = "PaperMod"
   ShowToc = true
   TocOpen = false
   ShowTagCloud = true
+  enableRobotsTXT = true
   googleSiteVerification = "IcGbzKJ0eP36FQsbRxoSFD-dE-mdv-ovJw2Vc-FhmoI"
 
 [params.homeInfoParams]
