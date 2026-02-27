@@ -9,17 +9,15 @@ theme = "PaperMod"
 [params]
   author = "TMas"
   description = "技術と日常のログ"
-
   ShowReadingTime = true
   ShowShareButtons = true
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
-  defaultTheme = "auto"  # ダークモード自動
+  defaultTheme = "auto"
   ShowToc = true
   TocOpen = false
   ShowTagCloud = true
-
   googleSiteVerification = "IcGbzKJ0eP36FQsbRxoSFD-dE-mdv-ovJw2Vc-FhmoI"
 
 [params.homeInfoParams]
