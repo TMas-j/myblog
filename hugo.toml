@@ -1,6 +1,6 @@
 baseURL = "https://myblog-ee8.pages.dev/"
 languageCode = "ja"
-title = "遊び場 (ASO-VIVA!)"
+title = "遊びバ (ASO-VIVA!)"
 theme = "PaperMod"
 
 [pagination]
@@ -22,7 +22,7 @@ theme = "PaperMod"
   googleSiteVerification = "IcGbzKJ0eP36FQsbRxoSFD-dE-mdv-ovJw2Vc-FhmoI"
 
 [params.homeInfoParams]
-  Title = "遊び場 (ASO-VIVA!)"
+  Title = "遊びバ (ASO-VIVA!)"
   Content = "日常や技術的なことなど、雑多なことを書いています"
 
 [taxonomies]
