@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Liella! on 遊びバ (ASO-VIVA!)</title>
+    <link>http://localhost:1313/tags/liella/</link>
+    <description>Recent content in Liella! on 遊びバ (ASO-VIVA!)</description>
+    <generator>Hugo -- 0.157.0</generator>
+    <language>ja</language>
+    <lastBuildDate>Tue, 03 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/liella/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Liella! 7thライブ 愛知公演 Day2 感想</title>
+      <link>http://localhost:1313/posts/liella_7th_aichi_day2/</link>
+      <pubDate>Tue, 03 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/liella_7th_aichi_day2/</guid>
+      <description>&lt;p&gt;「ラブライブ！スーパースター!! Liella! 7th LoveLive! ～Fly! MUSIC WORLD♪～」の
+愛知公演2日目に参戦してきました。
+会場はAichi Sky Expo。開演前から高まる期待感と緊張感で胸がいっぱいでした。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
