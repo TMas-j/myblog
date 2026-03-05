@@ -4,15 +4,20 @@
     <title>雑談 on 遊びバ (ASO-VIVA!)</title>
     <link>http://localhost:1313/tags/%E9%9B%91%E8%AB%87/</link>
     <description>Recent content in 雑談 on 遊びバ (ASO-VIVA!)</description>
+    <image>
+      <title>遊びバ (ASO-VIVA!)</title>
+      <url>http://localhost:1313/images/ogp.png</url>
+      <link>http://localhost:1313/images/ogp.png</link>
+    </image>
     <generator>Hugo -- 0.157.0</generator>
     <language>ja</language>
     <lastBuildDate>Thu, 26 Feb 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/%E9%9B%91%E8%AB%87/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>はじめての投稿</title>
-      <link>http://localhost:1313/posts/first-post/</link>
+      <link>http://localhost:1313/posts/%E3%81%AF%E3%81%98%E3%82%81%E3%81%A6%E3%81%AE%E6%8A%95%E7%A8%BF/</link>
       <pubDate>Thu, 26 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/first-post/</guid>
+      <guid>http://localhost:1313/posts/%E3%81%AF%E3%81%98%E3%82%81%E3%81%A6%E3%81%AE%E6%8A%95%E7%A8%BF/</guid>
       <description>&lt;p&gt;こんにちは&lt;/p&gt;</description>
     </item>
   </channel>

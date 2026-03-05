@@ -4,101 +4,23 @@
     <title>アニメ on 遊びバ (ASO-VIVA!)</title>
     <link>http://localhost:1313/tags/%E3%82%A2%E3%83%8B%E3%83%A1/</link>
     <description>Recent content in アニメ on 遊びバ (ASO-VIVA!)</description>
+    <image>
+      <title>遊びバ (ASO-VIVA!)</title>
+      <url>http://localhost:1313/images/ogp.png</url>
+      <link>http://localhost:1313/images/ogp.png</link>
+    </image>
     <generator>Hugo -- 0.157.0</generator>
     <language>ja</language>
-    <lastBuildDate>Tue, 03 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 04 Mar 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/%E3%82%A2%E3%83%8B%E3%83%A1/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>アニメ「アークナイツ」第1期の感想</title>
-      <link>http://localhost:1313/posts/arknights_1st/</link>
-      <pubDate>Tue, 03 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/arknights_1st/</guid>
+      <link>http://localhost:1313/posts/%E3%82%A2%E3%83%8B%E3%83%A1%E3%82%A2%E3%83%BC%E3%82%AF%E3%83%8A%E3%82%A4%E3%83%84%E7%AC%AC1%E6%9C%9F%E3%81%AE%E6%84%9F%E6%83%B3/</link>
+      <pubDate>Wed, 04 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/%E3%82%A2%E3%83%8B%E3%83%A1%E3%82%A2%E3%83%BC%E3%82%AF%E3%83%8A%E3%82%A4%E3%83%84%E7%AC%AC1%E6%9C%9F%E3%81%AE%E6%84%9F%E6%83%B3/</guid>
       <description>&lt;p&gt;2026年1月22日に公開されたゲーム「アークナイツ：エンドフィールド」にめちゃくちゃはまってます。&lt;/p&gt;
 &lt;p&gt;前作のゲーム「アークナイツ」は公開当初にそこそこやっていたけど、改めて前作の世界観が気になり、
-TVアニメ版「アークナイツ 【黎明前奏/PRELUDE TO DAWN】』を視聴してみた。&lt;/p&gt;
-&lt;p&gt;自分なりに1話から8話（第1クール）までを通して感じたことをまとめます。&lt;/p&gt;
-&lt;h2 id=&#34;世界観文明を支える源石オリジニウムと矛盾&#34;&gt;世界観：文明を支える「源石（オリジニウム）」と矛盾&lt;/h2&gt;
-&lt;p&gt;物語の舞台テラでは、「源石（オリジニウム）」が文明の中心エネルギーとなっています。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;移動都市を動かす動力源&lt;/li&gt;
-&lt;li&gt;産業や兵器を支える高出力エネルギー&lt;/li&gt;
-&lt;li&gt;生活インフラの基盤&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;しかし同時に、源石は鉱石病（オリパシー）という感染症を引き起こす危険物質でもあります。
-そして感染者は社会から厳しい目で見られ差別の対象となっています。&lt;/p&gt;
-&lt;p&gt;つまり、&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;文明を維持するために使わなければならないものが、社会に差別と分断を生み出している。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;この構図は、現実世界のエネルギー問題とも重なり、物語に強いリアリティを与えています。&lt;/p&gt;
-&lt;h2 id=&#34;感染者問題と都市の矛盾&#34;&gt;感染者問題と都市の矛盾&lt;/h2&gt;
-&lt;p&gt;物語序盤で強く印象に残るのは、感染者への扱いです。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;自分の意思で感染したわけではない&lt;/li&gt;
-&lt;li&gt;災害や仕事の結果で感染する&lt;/li&gt;
-&lt;li&gt;それでも社会から排除される&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;ロンメンのような巨大都市は治安維持を優先し、感染者を危険因子として扱います。&lt;/p&gt;
-&lt;p&gt;一方でロドスは感染者を守ろうとする組織。&lt;/p&gt;
-&lt;p&gt;ただし、都市側も単純な悪ではありません。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;暴動やテロの恐怖&lt;/li&gt;
-&lt;li&gt;市民を守る責任&lt;/li&gt;
-&lt;li&gt;経済や秩序の維持&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;それぞれがそれぞれの立場で「正しい選択」をしようとした結果、対立が生まれています。&lt;/p&gt;
-&lt;h2 id=&#34;アーミヤとロドスという存在&#34;&gt;アーミヤとロドスという存在&lt;/h2&gt;
-&lt;p&gt;アーミヤは、&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;感染者でありながら&lt;/li&gt;
-&lt;li&gt;ロドスの代表を務め&lt;/li&gt;
-&lt;li&gt;理想を信じ続ける少女&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;優しく、守ってあげたくなる存在でありながら、誰よりも重い決断を背負っています。&lt;/p&gt;
-&lt;p&gt;彼女とロドスが選んでいるのは、&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;都市も壊さず、感染者も見捨てない道&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;という、ほぼ不可能に近い理想。&lt;/p&gt;
-&lt;p&gt;その姿勢が物語の感情的な軸になっています。&lt;/p&gt;
-&lt;h2 id=&#34;レユニオンと葛藤&#34;&gt;レユニオンと葛藤&lt;/h2&gt;
-&lt;p&gt;レユニオンは感染者による武装組織。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;迫害されてきた怒り&lt;/li&gt;
-&lt;li&gt;居場所を奪われた絶望&lt;/li&gt;
-&lt;li&gt;世界への反発&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;その感情は理解できる。&lt;/p&gt;
-&lt;p&gt;しかし、自分にとっては&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;無関係な市民を巻き込む&lt;/li&gt;
-&lt;li&gt;暴力で訴える&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;という方法には納得できない。&lt;/p&gt;
-&lt;p&gt;この「気持ちは分かるが、やり方は支持できない」という立場が、視聴を通じて強く感じられました。&lt;/p&gt;
-&lt;h2 id=&#34;ミーシャの物語第8話まで&#34;&gt;ミーシャの物語（第8話まで）&lt;/h2&gt;
-&lt;p&gt;8話は、物語の最初の大きな山場。&lt;/p&gt;
-&lt;p&gt;ミーシャは、&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;有名科学者の娘&lt;/li&gt;
-&lt;li&gt;感染者&lt;/li&gt;
-&lt;li&gt;どの陣営にも狙われている&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;彼女は特別な思想を持っていたわけでもなく、
-ただ普通に生きたかっただけの少女。&lt;/p&gt;
-&lt;p&gt;しかし、&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;都市は守らず&lt;/li&gt;
-&lt;li&gt;レユニオンは利用し&lt;/li&gt;
-&lt;li&gt;ロドスも救いきれなかった&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;彼女は結果として、ある組織に所属することになるが、結末は「悲しい」というよりも、&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;誰も完全に間違っていないのに、救われなかった&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;という“切なさ”が残るものでした。&lt;/p&gt;
-&lt;h2 id=&#34;現時点での印象まとめ&#34;&gt;現時点での印象まとめ&lt;/h2&gt;
-&lt;p&gt;8話までを通して感じたことは、&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;感染者の立場が最も過酷に描かれている&lt;/li&gt;
-&lt;li&gt;しかし都市や兵士もまたそれぞれの恐怖を抱えている&lt;/li&gt;
-&lt;li&gt;善悪二元論では語れない世界&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;そして何より、&lt;/p&gt;</description>
+TVアニメ版「アークナイツ 【黎明前奏/PRELUDE TO DAWN】」を視聴してみた。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

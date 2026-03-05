@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="auto" data-theme="auto">
+<html lang="ja" dir="auto" data-theme="auto">
 
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,7 +10,7 @@
 <meta name="description" content="技術と日常のログ">
 <meta name="author" content="TMas">
 <link rel="canonical" href="http://localhost:1313/tags/wsl/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.eca7f6b2a9c459f4cf4b89080e2e248a293630c24f7ae946f554f2ae4b8e4a0a.css" integrity="sha256-7Kf2sqnEWfTPS4kIDi4kiik2MMJPeulG9VTyrkuOSgo=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.3d1893605aa8dff3a91e3e8725dde253150f5042f7c970739eb13c6248a0628f.css" integrity="sha256-PRiTYFqo3/OpHj6HJd3iUxUPUEL3yXBznrE8YkigYo8=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
@@ -19,7 +19,7 @@
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
 <link rel="alternate" type="application/rss+xml" href="http://localhost:1313/tags/wsl/index.xml" title="rss">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/tags/wsl/">
+<link rel="alternate" hreflang="ja" href="http://localhost:1313/tags/wsl/">
 <noscript>
     <style>
         #theme-toggle,
@@ -112,6 +112,11 @@
                     <span>Categories</span>
                 </a>
             </li>
+            <li>
+                <a href="http://localhost:1313/search/" title="Search">
+                    <span>Search</span>
+                </a>
+            </li>
         </ul>
     </nav>
 </header>
@@ -119,6 +124,14 @@
 <header class="page-header"><div class="breadcrumbs"><a href="http://localhost:1313/">ホーム</a>&nbsp;»&nbsp;<a href="http://localhost:1313/tags/">Tags</a></div>
   <h1>
     Wsl
+    <a href="/tags/wsl/index.xml" title="RSS" aria-label="RSS">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" height="23">
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
   </h1>
 </header>
 
@@ -130,16 +143,10 @@
   <div class="entry-content">
     <p>はじめに 静的サイトでブログを作ってみたいと思い、Hugoを使って構築し、最終的にCloudflare Pagesで公開するまでをやってみた。
 そのセットアップの記録。
-やりたかったこと シンプルなデザイン Markdownで記事を書きたい GitHubと連携したい 無料で公開したい Cloudflareを使ってみたい 開発環境 WSL (Ubuntu) Hugo（extended版） テーマ：PaperMod GitHub Cloudflare Pages ① Hugoのセットアップ まずはHugoをインストール。
-https://github.com/gohugoio/hugo/releases/を参考に最新版(v0.157.0)を使用。
-wget https://github.com/gohugoio/hugo/releases/download/v0.157.0/hugo_extended_0.157.0_linux-amd64.deb dpkg -i hugo_extended_0.157.0_linux-amd64.deb version確認
-$ hugo version hugo v0.157.0-7747abbb316b03c8f353fd3be62d5011fa883ee6&#43;extended linux/amd64 BuildDate=2026-02-25T16:38:33Z VendorInfo=gohugoio 新規サイト作成
-hugo new site myblog cd myblog ※ 注意 最初、aptでインストールしたが、Hugo(v0.123.7)がインストールされてしまい、 後述のPaperModの要求バージョン(v0.146.0以上)を満たさなかったので注意。
-$ sudo apt install hugo $ hugo version hugo v0.123.7&#43;extended linux/amd64 BuildDate=2025-07-18T03:41:49Z VendorInfo=ubuntu:0.123.7-1ubuntu0.3 $ hugo server -D WARN Module &#34;PaperMod&#34; is not compatible with this Hugo version: Min 0.146.0; ②テーマ導入（PaperMod） hugo公式ではテーマがたくさん紹介されている。
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2026-02-26 00:00:00 +0000 UTC'>February 26, 2026</span>&nbsp;·&nbsp;<span>1 分</span>&nbsp;·&nbsp;<span>TMas</span></footer>
-  <a class="entry-link" aria-label="post link to Hugo &#43; Cloudflare Pagesでブログを公開するまでの記録" href="http://localhost:1313/posts/hugo-cloudflare-blog/"></a>
+  <footer class="entry-footer"><span title='2026-02-26 00:00:00 +0000 UTC'>2026年2月26日</span>&nbsp;·&nbsp;<span>3 分</span>&nbsp;·&nbsp;<span>1189 文字</span>&nbsp;·&nbsp;<span>TMas</span></footer>
+  <a class="entry-link" aria-label="post link to Hugo &#43; Cloudflare Pagesでブログを公開するまでの記録" href="http://localhost:1313/posts/hugo--cloudflare-pages%E3%81%A7%E3%83%96%E3%83%AD%E3%82%B0%E3%82%92%E5%85%AC%E9%96%8B%E3%81%99%E3%82%8B%E3%81%BE%E3%81%A7%E3%81%AE%E8%A8%98%E9%8C%B2/"></a>
 </article>
     </main>
     

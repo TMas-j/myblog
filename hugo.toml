@@ -1,35 +1,32 @@
 baseURL = "https://myblog-ee8.pages.dev/"
-languageCode = "ja"
 title = "遊びバ (ASO-VIVA!)"
+languageCode = "ja"
+defaultContentLanguage = "ja"
+hasCJKLanguage = true
 theme = "PaperMod"
 
 enableRobotsTXT = true
+enableEmoji = true
 
 [pagination]
   pagerSize = 10
 
-[params]
-  author = "TMas"
-  description = "技術と日常のログ"
-  ShowReadingTime = true
-  ShowShareButtons = true
-  ShowPostNavLinks = true
-  ShowBreadCrumbs = true
-  ShowCodeCopyButtons = true
-  defaultTheme = "auto"
-  ShowToc = true
-  TocOpen = false
-  ShowTagCloud = true
-  googleSiteVerification = "IcGbzKJ0eP36FQsbRxoSFD-dE-mdv-ovJw2Vc-FhmoI"
+# sitemap（SEO）
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
+  filename = "sitemap.xml"
 
-[params.homeInfoParams]
-  Title = "遊びバ (ASO-VIVA!)"
-  Content = "日常や技術的なことなど、雑多なことを書いています"
+# URLをきれいに
+[permalinks]
+  posts = "/posts/:slug/"
 
+# タグ
 [taxonomies]
   tag = "tags"
   category = "categories"
 
+# メニュー
 [[menu.main]]
   name = "Tags"
   url = "/tags/"
@@ -39,3 +36,58 @@ enableRobotsTXT = true
   name = "Categories"
   url = "/categories/"
   weight = 20
+
+[[menu.main]]
+  name = "Search"
+  url = "/search/"
+  weight = 30
+
+[params]
+
+  author = "TMas"
+  description = "技術と日常のログ"
+
+  # SEO
+  googleSiteVerification = "IcGbzKJ0eP36FQsbRxoSFD-dE-mdv-ovJw2Vc-FhmoI"
+
+  # テーマ
+  defaultTheme = "auto"
+  disableThemeToggle = false
+
+  # UI
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+
+  # 目次
+  ShowToc = true
+  TocOpen = false
+
+  # ホーム
+  ShowTagCloud = true
+
+  # OGP（SNSカード）
+  images = ["images/ogp.png"]
+
+  # 記事メタ
+  ShowWordCount = true
+  ShowRssButtonInSectionTermList = true
+
+  # コメント（将来用）
+  comments = false
+
+[params.homeInfoParams]
+  Title = "遊びバ (ASO-VIVA!)"
+  Content = "日常や技術的なことなど、雑多なことを書いています"
+
+# markdown設定
+[markup]
+
+  [markup.goldmark.renderer]
+    unsafe = true
+
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 4
