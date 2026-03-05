@@ -135,7 +135,7 @@ GameObjectの作成（Player, Enemy, EnemyBullet）
     <h1 class="post-title entry-hint-parent">
       Unityで弾幕シューティングを作る方法① 基本の敵弾発射
     </h1>
-    <div class="post-meta"><span title='2026-03-05 00:00:00 +0000 UTC'>2026年3月5日</span>&nbsp;·&nbsp;<span>7 分</span>&nbsp;·&nbsp;<span>3012 文字</span>&nbsp;·&nbsp;<span>TMas</span>
+    <div class="post-meta"><span title='2026-03-05 00:00:00 +0000 UTC'>2026年3月5日</span>&nbsp;·&nbsp;<span>7 分</span>&nbsp;·&nbsp;<span>3223 文字</span>&nbsp;·&nbsp;<span>TMas</span>
 
 </div>
   </header> <div class="toc">
@@ -264,7 +264,7 @@ GameObjectの作成（Player, Enemy, EnemyBullet）
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">PlayerMovement</span> : MonoBehaviour
 </span></span><span style="display:flex;"><span>{
 </span></span><span style="display:flex;"><span>    <span style="color:#75715e">// プレイヤーの移動速度</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">float</span> speed = <span style="color:#ae81ff">5f</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">float</span> speed = <span style="color:#ae81ff">2f</span>;
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">void</span> Update()
 </span></span><span style="display:flex;"><span>    {
@@ -314,9 +314,13 @@ You are trying to read Input using the UnityEngine.Input class
 <p><strong>やりたいこと</strong></p>
 <ul>
 <li>弾を左方向に移動させる</li>
+<li>画面外に出たら弾を廃棄する</li>
 </ul>
 <div style="font-size:0.9em;color:gray;">EnemyBullet.cs</div>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-csharp" data-lang="csharp"><span style="display:flex;"><span><span style="color:#66d9ef">using</span> UnityEngine;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// 敵が発射する弾の動作を制御するスクリプト</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">using</span> UnityEngine;
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#75715e">// 敵が発射する弾の動作を制御するスクリプト</span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">EnemyBullet</span> : MonoBehaviour
@@ -331,12 +335,30 @@ You are trying to read Input using the UnityEngine.Input class
 </span></span><span style="display:flex;"><span>        <span style="color:#75715e">// speed を掛けることで移動速度を調整</span>
 </span></span><span style="display:flex;"><span>        <span style="color:#75715e">// Time.deltaTime を掛けることでフレームレートに依存しない移動になる</span>
 </span></span><span style="display:flex;"><span>        transform.Translate(Vector2.left * speed * Time.deltaTime);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// 画面外に出たら弾を削除する</span>
+</span></span><span style="display:flex;"><span>        CheckOutOfScreen();
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// 画面外に出たかどうかをチェックする関数</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">void</span> CheckOutOfScreen()
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// 現在の弾の位置を取得</span>
+</span></span><span style="display:flex;"><span>        Vector3 pos = transform.position;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// 画面外の範囲を設定（プレイヤーと同じ範囲より少し広め）</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> (pos.x &lt; -<span style="color:#ae81ff">10f</span> || pos.x &gt; <span style="color:#ae81ff">10f</span> || pos.y &lt; -<span style="color:#ae81ff">6f</span> || pos.y &gt; <span style="color:#ae81ff">6f</span>)
+</span></span><span style="display:flex;"><span>        {
+</span></span><span style="display:flex;"><span>            <span style="color:#75715e">// 弾を削除</span>
+</span></span><span style="display:flex;"><span>            Destroy(gameObject);
+</span></span><span style="display:flex;"><span>        }
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><p>EnemyBullet.csができたら、Projectビューの <strong>EnemyBulletのPrefab</strong> にドラッグしてアタッチします。</p>
+<p>ちなみに、Destroy / Instantiate を大量にすると重くなるため、Object Poolという方法を取るのが一般的ですが、まずはこの状態で進めます。</p>
 <h3 id="bulletmanagerのスクリプト">BulletManagerのスクリプト<a hidden class="anchor" aria-hidden="true" href="#bulletmanagerのスクリプト">#</a></h3>
 <p>弾の生成処理を1箇所にまとめることで、
-後から弾の最適化（オブジェクトプールなど）を追加しやすくします。</p>
+後から弾の最適化（ObjectPoolなど）を追加しやすくします。</p>
 <div style="font-size:0.9em;color:gray;">BulletManager.cs</div>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-csharp" data-lang="csharp"><span style="display:flex;"><span><span style="color:#66d9ef">using</span> UnityEngine;
 </span></span><span style="display:flex;"><span>
