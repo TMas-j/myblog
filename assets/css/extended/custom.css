@@ -16,3 +16,8 @@ body {
 .post-entry:hover {
   transform: translateY(-3px);
 }
+
+.post-content img {
+  display: block;
+  margin: auto;
+}

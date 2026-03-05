@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>弾幕 on 遊びバ (ASO-VIVA!)</title>
+    <link>http://localhost:1313/tags/%E5%BC%BE%E5%B9%95/</link>
+    <description>Recent content in 弾幕 on 遊びバ (ASO-VIVA!)</description>
+    <generator>Hugo -- 0.157.0</generator>
+    <language>ja</language>
+    <lastBuildDate>Thu, 05 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/%E5%BC%BE%E5%B9%95/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Unityでの弾幕の作り方（最初の一歩）</title>
+      <link>http://localhost:1313/posts/danmaku_lets_start/</link>
+      <pubDate>Thu, 05 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/danmaku_lets_start/</guid>
+      <description>&lt;p&gt;これから何回かにかけて弾幕の作り方を記事にしようと思っています。&lt;/p&gt;
+&lt;p&gt;今回は、最初の一歩というとこで、&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Unityでプロジェクトの作成&lt;/li&gt;
+&lt;li&gt;基本的な設定&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;をやっていこうと思います。&lt;/p&gt;
+&lt;h2 id=&#34;unityでのプロジェクトの作成&#34;&gt;Unityでのプロジェクトの作成&lt;/h2&gt;
+&lt;p&gt;UnityやUnity Hubのインストール方法は他の方の記事を参考にしてください。
+（そのうち書くかもしれません）&lt;/p&gt;
+&lt;p&gt;今回のUnityのversionは6000.3.10f1です。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

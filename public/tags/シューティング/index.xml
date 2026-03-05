@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>シューティング on 遊びバ (ASO-VIVA!)</title>
+    <link>http://localhost:1313/tags/%E3%82%B7%E3%83%A5%E3%83%BC%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0/</link>
+    <description>Recent content in シューティング on 遊びバ (ASO-VIVA!)</description>
+    <generator>Hugo -- 0.157.0</generator>
+    <language>ja</language>
+    <lastBuildDate>Thu, 05 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/%E3%82%B7%E3%83%A5%E3%83%BC%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Unityでの弾幕の作り方（最初の一歩）</title>
+      <link>http://localhost:1313/posts/danmaku_lets_start/</link>
+      <pubDate>Thu, 05 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/danmaku_lets_start/</guid>
+      <description>&lt;h2 id=&#34;はじめに&#34;&gt;はじめに&lt;/h2&gt;
+&lt;p&gt;これから何回かにかけてUnityでの弾幕ゲームの作り方を記事にしようと思っています。&lt;/p&gt;
+&lt;p&gt;今回は、最初の一歩というとこで、&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Unityでプロジェクトの作成&lt;/li&gt;
+&lt;li&gt;GameObjectの作成（Player, Enemy, Bullets）&lt;/li&gt;
+&lt;li&gt;基本的な動作のプログラム&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;をやっていこうと思います。&lt;/p&gt;
+&lt;h2 id=&#34;unityでのプロジェクトの作成&#34;&gt;Unityでのプロジェクトの作成&lt;/h2&gt;
+&lt;p&gt;UnityやUnity Hubのインストール方法は他の方の記事を参考にしてください。
+（そのうち書くかもしれません）&lt;/p&gt;
+&lt;p&gt;今回のUnityのversionは &lt;strong&gt;6000.3.10f1&lt;/strong&gt; です。&lt;/p&gt;
+&lt;p&gt;Unity Hubから新しいプロジェクトを作成します。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;新しいプロジェクト&lt;/li&gt;
+&lt;li&gt;テンプレートは「2D(Built-In Render Pipeline)」&lt;/li&gt;
+&lt;li&gt;プロジェクト名や保存場所を設定&lt;/li&gt;
+&lt;li&gt;プロジェクトを作成&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;これでプロジェクトが作成されました。&lt;/p&gt;
+&lt;h2 id=&#34;player-enemy-bulletsの作成&#34;&gt;Player, Enemy, Bulletsの作成&lt;/h2&gt;
+&lt;p&gt;Unityのプロジェクトが立ち上がったら、シューティングの基本となるObjectを作成します。&lt;/p&gt;
+&lt;p&gt;今回は、Player（プレイヤー）を三角、Enemy（敵）を四角、Bullets（弾丸）を丸で作成します。
+横画面で、プレイヤーが左、敵が右側にいる想定です。
+上下にしたい方は適宜修正してください。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Player&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Hierarcheyで右クリック → 2D Object → Sprites → Triangle&lt;/li&gt;
+&lt;li&gt;名前をPlayerにする&lt;/li&gt;
+&lt;li&gt;PlayerのInspectorのTransformで以下を設定する
+&lt;ul&gt;
+&lt;li&gt;Position: X:-7, Y:0, Z:0&lt;/li&gt;
+&lt;li&gt;Rotation: X:0, Y:0, Z:90&lt;/li&gt;
+&lt;li&gt;Scale: X:0.5, Y:0.5, Z:1&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Enemy&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Hierarcheyで右クリック → 2D Object → Sprites → Square&lt;/li&gt;
+&lt;li&gt;名前をEnemyにする&lt;/li&gt;
+&lt;li&gt;EnemyのInspectorのTransformで以下を設定する
+&lt;ul&gt;
+&lt;li&gt;Position: X:7, Y:0, Z:0&lt;/li&gt;
+&lt;li&gt;Rotation: X:0, Y:0, Z:0&lt;/li&gt;
+&lt;li&gt;Scale: X:0.5, Y:0.5, Z:1&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Bullets&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

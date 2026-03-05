@@ -5,12 +5,12 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="noindex, nofollow">
-<title>404 Page not found | 遊びバ (ASO-VIVA!)</title>
+<title>シューティング | 遊びバ (ASO-VIVA!)</title>
 <meta name="keywords" content="">
 <meta name="description" content="技術と日常のログ">
 <meta name="author" content="TMas">
-<link rel="canonical" href="http://localhost:1313/404.html">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.3d1893605aa8dff3a91e3e8725dde253150f5042f7c970739eb13c6248a0628f.css" integrity="sha256-PRiTYFqo3/OpHj6HJd3iUxUPUEL3yXBznrE8YkigYo8=" rel="preload stylesheet" as="style">
+<link rel="canonical" href="http://localhost:1313/tags/%E3%82%B7%E3%83%A5%E3%83%BC%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.eca7f6b2a9c459f4cf4b89080e2e248a293630c24f7ae946f554f2ae4b8e4a0a.css" integrity="sha256-7Kf2sqnEWfTPS4kIDi4kiik2MMJPeulG9VTyrkuOSgo=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
@@ -18,7 +18,8 @@
 <link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/404.html">
+<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/tags/%E3%82%B7%E3%83%A5%E3%83%BC%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0/index.xml" title="rss">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/tags/%E3%82%B7%E3%83%A5%E3%83%BC%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0/">
 <noscript>
     <style>
         #theme-toggle,
@@ -114,8 +115,36 @@
         </ul>
     </nav>
 </header>
-<main class="main">
-<div class="not-found">404</div>
+<main class="main"> 
+<header class="page-header"><div class="breadcrumbs"><a href="http://localhost:1313/">ホーム</a>&nbsp;»&nbsp;<a href="http://localhost:1313/tags/">Tags</a></div>
+  <h1>
+    シューティング
+  </h1>
+</header>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Unityでの弾幕の作り方（最初の一歩）
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>はじめに これから何回かにかけてUnityでの弾幕ゲームの作り方を記事にしようと思っています。
+今回は、最初の一歩というとこで、
+Unityでプロジェクトの作成 GameObjectの作成（Player, Enemy, Bullets） 基本的な動作のプログラム をやっていこうと思います。
+Unityでのプロジェクトの作成 UnityやUnity Hubのインストール方法は他の方の記事を参考にしてください。 （そのうち書くかもしれません）
+今回のUnityのversionは 6000.3.10f1 です。
+Unity Hubから新しいプロジェクトを作成します。
+新しいプロジェクト テンプレートは「2D(Built-In Render Pipeline)」 プロジェクト名や保存場所を設定 プロジェクトを作成 これでプロジェクトが作成されました。
+Player, Enemy, Bulletsの作成 Unityのプロジェクトが立ち上がったら、シューティングの基本となるObjectを作成します。
+今回は、Player（プレイヤー）を三角、Enemy（敵）を四角、Bullets（弾丸）を丸で作成します。 横画面で、プレイヤーが左、敵が右側にいる想定です。 上下にしたい方は適宜修正してください。
+Player
+Hierarcheyで右クリック → 2D Object → Sprites → Triangle 名前をPlayerにする PlayerのInspectorのTransformで以下を設定する Position: X:-7, Y:0, Z:0 Rotation: X:0, Y:0, Z:90 Scale: X:0.5, Y:0.5, Z:1 Enemy
+Hierarcheyで右クリック → 2D Object → Sprites → Square 名前をEnemyにする EnemyのInspectorのTransformで以下を設定する Position: X:7, Y:0, Z:0 Rotation: X:0, Y:0, Z:0 Scale: X:0.5, Y:0.5, Z:1 Bullets
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2026-03-05 00:00:00 +0000 UTC'>March 5, 2026</span>&nbsp;·&nbsp;<span>2 分</span>&nbsp;·&nbsp;<span>TMas</span></footer>
+  <a class="entry-link" aria-label="post link to Unityでの弾幕の作り方（最初の一歩）" href="http://localhost:1313/posts/danmaku_lets_start/"></a>
+</article>
     </main>
     
 <footer class="footer">

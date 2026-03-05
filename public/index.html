@@ -11,7 +11,7 @@
 <meta name="description" content="技術と日常のログ">
 <meta name="author" content="TMas">
 <link rel="canonical" href="http://localhost:1313/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.eca7f6b2a9c459f4cf4b89080e2e248a293630c24f7ae946f554f2ae4b8e4a0a.css" integrity="sha256-7Kf2sqnEWfTPS4kIDi4kiik2MMJPeulG9VTyrkuOSgo=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.3d1893605aa8dff3a91e3e8725dde253150f5042f7c970739eb13c6248a0628f.css" integrity="sha256-PRiTYFqo3/OpHj6HJd3iUxUPUEL3yXBznrE8YkigYo8=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
@@ -133,12 +133,37 @@
 
 <article class="post-entry"> 
   <header class="entry-header">
+    <h2 class="entry-hint-parent">Unityで弾幕シューティングを作る方法① 基本の敵弾発射
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>はじめに これから何回かにかけてUnityでの弾幕の作り方を記事にしようと思っています。
+今回は最初の一歩というとこで、
+Unityでプロジェクトの作成 GameObjectの作成（Player, Enemy, EnemyBullet） 基本的な動作のプログラム をやっていこうと思います。
+今回の内容を実行すると、以下のようなゲームが作れます。
+Unityでのプロジェクトの作成 UnityやUnity Hubのインストール方法は他の方の記事を参考にしてください。 （そのうち書くかもしれません）
+今回のUnityのversionは 6000.3.10f1 です。
+まずは、Unity Hubから新しいプロジェクトを作成します。
+新しいプロジェクト テンプレートは「2D(Built-In Render Pipeline)」 プロジェクト名や保存場所を設定 プロジェクトを作成 これでプロジェクトが作成されました。
+Player, Enemy, EnemyBulletの作成 Unityのプロジェクトが立ち上がったら、シューティングの基本となるObjectを作成します。
+今回は、Player（プレイヤー）を三角、Enemy（敵）を四角、EnemyBullet（敵の弾丸）を丸で作成します。 横画面で、プレイヤーが左、敵が右側にいる想定です。 上下にしたい方は適宜修正してください。
+Player
+Hierarchyで右クリック → 2D Object → Sprites → Triangle 名前をPlayerにする PlayerのInspectorのTransformで以下を設定する Position: X:-7, Y:0, Z:0 Rotation: X:0, Y:0, Z:90 Scale: X:0.5, Y:0.5, Z:1 Enemy
+Hierarchyで右クリック → 2D Object → Sprites → Square 名前をEnemyにする EnemyのInspectorのTransformで以下を設定する Position: X:7, Y:0, Z:0 Rotation: X:0, Y:0, Z:0 Scale: X:0.5, Y:0.5, Z:1 EnemyBullet
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2026-03-05 00:00:00 +0000 UTC'>March 5, 2026</span>&nbsp;·&nbsp;<span>3 分</span>&nbsp;·&nbsp;<span>TMas</span></footer>
+  <a class="entry-link" aria-label="post link to Unityで弾幕シューティングを作る方法① 基本の敵弾発射" href="http://localhost:1313/posts/danmaku_lets_start/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
     <h2 class="entry-hint-parent">アニメ「アークナイツ」第1期の感想
     </h2>
   </header>
   <div class="entry-content">
     <p>2026年1月22日に公開されたゲーム「アークナイツ：エンドフィールド」にめちゃくちゃはまってます。
-前作のゲーム「アークナイツ」は公開当初にそこそこやっていたけど、改めて前作の世界観が気になり、 TVアニメ版「アークナイツ 【黎明前奏/PRELUDE TO DAWN】』を視聴してみた。
+前作のゲーム「アークナイツ」は公開当初にそこそこやっていたけど、改めて前作の世界観が気になり、 TVアニメ版「アークナイツ 【黎明前奏/PRELUDE TO DAWN】」を視聴してみた。
 自分なりに1話から8話（第1クール）までを通して感じたことをまとめます。
 世界観：文明を支える「源石（オリジニウム）」と矛盾 物語の舞台テラでは、「源石（オリジニウム）」が文明の中心エネルギーとなっています。
 移動都市を動かす動力源 産業や兵器を支える高出力エネルギー 生活インフラの基盤 しかし同時に、源石は鉱石病（オリパシー）という感染症を引き起こす危険物質でもあります。 そして感染者は社会から厳しい目で見られ差別の対象となっています。
