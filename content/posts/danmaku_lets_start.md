@@ -88,7 +88,9 @@ Unityのプロジェクトが立ち上がったら、シューティングの基
 - 現時点では敵の弾丸との当たり判定や弾の発射はしない
     - ブログの目的が敵の弾幕の作成がメインだから
 
-```csharp:PlayerMovement.cs
+<div style="font-size:0.9em;color:gray;">PlayerMovement.cs</div>
+
+```csharp
 using UnityEngine;
 
 // プレイヤーの移動処理を行うスクリプト
@@ -155,9 +157,12 @@ You are trying to read Input using the UnityEngine.Input class
 ### EnemyBulletのスクリプト
 
 **やりたいこと**
+
 - 弾を左方向に移動させる
 
-```csharp:EnemyBullet.cs
+<div style="font-size:0.9em;color:gray;">EnemyBullet.cs</div>
+
+```csharp
 using UnityEngine;
 
 // 敵が発射する弾の動作を制御するスクリプト
@@ -184,7 +189,9 @@ EnemyBullet.csができたら、Projectビューの **EnemyBulletのPrefab** に
 弾の生成処理を1箇所にまとめることで、
 後から弾の最適化（オブジェクトプールなど）を追加しやすくします。
 
-```csharp:BulletManager.cs
+<div style="font-size:0.9em;color:gray;">BulletManager.cs</div>
+
+```csharp
 using UnityEngine;
 
 // 弾の生成を管理するクラス
@@ -231,7 +238,9 @@ Object Poolを利用した弾管理の方法も紹介します。
 - Bullets（弾）一定間隔の時間で発射する
 - 位置は固定（動かない）
 
-```csharp:EnemyShooting.cs
+<div style="font-size:0.9em;color:gray;">EnemyShooting.cs</div>
+
+```csharp
 using UnityEngine;
 
 // 敵が一定時間ごとに弾を発射するスクリプト
