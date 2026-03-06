@@ -2,7 +2,7 @@
 title: "Hugoブログの見た目をカスタマイズする（PaperMod）"
 date: 2026-03-06T10:36:42+09:00
 draft: true
-slug: hug--css-custom
+slug: hugo-css-custom
 tags: ["Hugo"]
 categories: ["技術"]
 description: "Hugoブログの見た目をカスタマイズする方法"
