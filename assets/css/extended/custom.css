@@ -17,7 +17,85 @@ body {
   transform: translateY(-3px);
 }
 
+
+/* =========================
+   見出し
+========================= */
+
+.post-content h2 {
+  border-left: 6px solid #6366f1;
+  padding-left: 12px;
+  margin-top: 2em;
+}
+
+.post-content h3 {
+  border-bottom: 2px solid #eee;
+  padding-bottom: 4px;
+  margin-top: 1.5em;
+}
+
+.post-content h4 {
+  color: #666;
+}
+
+
+/* =========================
+   画像
+========================= */
+
 .post-content img {
   display: block;
-  margin: auto;
+  margin: 1.5em auto;
+  border-radius: 6px;
+}
+
+
+/* =========================
+   コードブロック
+========================= */
+
+.post-content pre {
+  border-radius: 8px;
+  padding: 14px;
+  font-size: 0.9em;
+}
+
+
+/* =========================
+   インラインコード
+========================= */
+
+.post-content code {
+  background: #f3f4f6;
+  padding: 3px 6px;
+  border-radius: 4px;
+}
+
+
+/* =========================
+   表
+========================= */
+
+.post-content table {
+  display: block;
+  overflow-x: auto;
+  border-collapse: collapse;
+}
+
+.post-content th,
+.post-content td {
+  border: 1px solid #ddd;
+  padding: 6px 10px;
+}
+
+
+/* =========================
+   引用
+========================= */
+
+.post-content blockquote {
+  border-left: 4px solid #6366f1;
+  background: #f8fafc;
+  padding: 10px 14px;
+  border-radius: 4px;
 }
