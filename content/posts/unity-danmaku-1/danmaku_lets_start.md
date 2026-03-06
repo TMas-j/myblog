@@ -5,6 +5,7 @@ draft: false
 slug: unity-danmaku-1
 tags: ["Unity", "ゲーム制作","シューティング", "弾幕"]
 categories: ["技術"]
+description: "Unityで弾幕を作る方法 1回目"
 ---
 
 ## はじめに

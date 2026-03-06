@@ -1,0 +1,26 @@
+<script>
+document.querySelectorAll(".post-content img").forEach(img => {
+  img.addEventListener("click", () => {
+    const overlay = document.createElement("div");
+    overlay.style.position="fixed";
+    overlay.style.top=0;
+    overlay.style.left=0;
+    overlay.style.width="100%";
+    overlay.style.height="100%";
+    overlay.style.background="rgba(0,0,0,0.8)";
+    overlay.style.display="flex";
+    overlay.style.alignItems="center";
+    overlay.style.justifyContent="center";
+
+    const big = document.createElement("img");
+    big.src = img.src;
+    big.style.maxWidth="90%";
+    big.style.maxHeight="90%";
+
+    overlay.appendChild(big);
+    overlay.onclick=()=>overlay.remove();
+
+    document.body.appendChild(overlay);
+  });
+});
+</script>
