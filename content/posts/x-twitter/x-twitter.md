@@ -1,7 +1,7 @@
 ---
 title: "X（旧Twitter）アカウント作りました"
 date: 2026-03-06
-draft: true
+draft: false
 slug: x-twitter
 tags: ["X", "Twitter"]
 categories: ["日常"]
