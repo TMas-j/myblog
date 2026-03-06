@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Liella! on 遊びバ (ASO-VIVA!)</title>
+    <title>Liella! on TMasの遊びバ！ (ASO-VIVA!)</title>
     <link>http://localhost:1313/tags/liella/</link>
-    <description>Recent content in Liella! on 遊びバ (ASO-VIVA!)</description>
+    <description>Recent content in Liella! on TMasの遊びバ！ (ASO-VIVA!)</description>
     <image>
-      <title>遊びバ (ASO-VIVA!)</title>
+      <title>TMasの遊びバ！ (ASO-VIVA!)</title>
       <url>http://localhost:1313/images/ogp.png</url>
       <link>http://localhost:1313/images/ogp.png</link>
     </image>
@@ -15,9 +15,9 @@
     <atom:link href="http://localhost:1313/tags/liella/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Liella! 7thライブ 愛知公演 Day2 感想</title>
-      <link>http://localhost:1313/posts/liella-7th%E3%83%A9%E3%82%A4%E3%83%96-%E6%84%9B%E7%9F%A5%E5%85%AC%E6%BC%94-day2-%E6%84%9F%E6%83%B3/</link>
+      <link>http://localhost:1313/posts/liella-7th-aichi-day2/</link>
       <pubDate>Tue, 03 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/liella-7th%E3%83%A9%E3%82%A4%E3%83%96-%E6%84%9B%E7%9F%A5%E5%85%AC%E6%BC%94-day2-%E6%84%9F%E6%83%B3/</guid>
+      <guid>http://localhost:1313/posts/liella-7th-aichi-day2/</guid>
       <description>&lt;h2 id=&#34;はじめに&#34;&gt;はじめに&lt;/h2&gt;
 &lt;p&gt;「ラブライブ！スーパースター!! Liella! 7th LoveLive! ～Fly! MUSIC WORLD♪～」の
 愛知公演2日目に参戦してきました。

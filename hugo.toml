@@ -1,5 +1,5 @@
 baseURL = "https://myblog-ee8.pages.dev/"
-title = "遊びバ (ASO-VIVA!)"
+title = "TMasの遊びバ！ (ASO-VIVA!)"
 languageCode = "ja"
 defaultContentLanguage = "ja"
 hasCJKLanguage = true
@@ -79,7 +79,7 @@ enableEmoji = true
   comments = false
 
 [params.homeInfoParams]
-  Title = "遊びバ (ASO-VIVA!)"
+  Title = "TMasの遊びバ！ (ASO-VIVA!)"
   Content = "日常や技術的なことなど、雑多なことを書いています"
 
 # markdown設定

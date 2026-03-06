@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>弾幕 on 遊びバ (ASO-VIVA!)</title>
+    <title>弾幕 on TMasの遊びバ！ (ASO-VIVA!)</title>
     <link>http://localhost:1313/tags/%E5%BC%BE%E5%B9%95/</link>
-    <description>Recent content in 弾幕 on 遊びバ (ASO-VIVA!)</description>
+    <description>Recent content in 弾幕 on TMasの遊びバ！ (ASO-VIVA!)</description>
     <image>
-      <title>遊びバ (ASO-VIVA!)</title>
+      <title>TMasの遊びバ！ (ASO-VIVA!)</title>
       <url>http://localhost:1313/images/ogp.png</url>
       <link>http://localhost:1313/images/ogp.png</link>
     </image>
@@ -15,9 +15,9 @@
     <atom:link href="http://localhost:1313/tags/%E5%BC%BE%E5%B9%95/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Unityで弾幕シューティングを作る方法① 基本の敵弾発射</title>
-      <link>http://localhost:1313/posts/unity%E3%81%A7%E5%BC%BE%E5%B9%95%E3%82%B7%E3%83%A5%E3%83%BC%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0%E3%82%92%E4%BD%9C%E3%82%8B%E6%96%B9%E6%B3%95-%E5%9F%BA%E6%9C%AC%E3%81%AE%E6%95%B5%E5%BC%BE%E7%99%BA%E5%B0%84/</link>
+      <link>http://localhost:1313/posts/unity-danmaku-1/</link>
       <pubDate>Thu, 05 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/unity%E3%81%A7%E5%BC%BE%E5%B9%95%E3%82%B7%E3%83%A5%E3%83%BC%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0%E3%82%92%E4%BD%9C%E3%82%8B%E6%96%B9%E6%B3%95-%E5%9F%BA%E6%9C%AC%E3%81%AE%E6%95%B5%E5%BC%BE%E7%99%BA%E5%B0%84/</guid>
+      <guid>http://localhost:1313/posts/unity-danmaku-1/</guid>
       <description>&lt;h2 id=&#34;はじめに&#34;&gt;はじめに&lt;/h2&gt;
 &lt;p&gt;これから何回かにかけてUnityでの弾幕の作り方を記事にしようと思っています。&lt;/p&gt;
 &lt;p&gt;今回は最初の一歩というとこで、&lt;/p&gt;
