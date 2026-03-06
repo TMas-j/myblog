@@ -1,60 +1,18 @@
 <!DOCTYPE html>
-<html lang="en" dir="auto" data-theme="auto">
+<html lang="ja" dir="auto" data-theme="auto">
 
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="noindex, nofollow">
 <title>Hugo &#43; Cloudflare Pagesでブログを公開するまでの記録 | 遊びバ (ASO-VIVA!)</title>
-<meta name="keywords" content="hugo, cloudflare, wsl, blog, github">
+<meta name="keywords" content="hugo, cloudflare, github">
 <meta name="description" content="はじめに
 静的サイトでブログを作ってみたいと思い、Hugoを使って構築し、最終的にCloudflare Pagesで公開するまでをやってみた。
-そのセットアップの記録。
-
-やりたかったこと
-
-シンプルなデザイン
-Markdownで記事を書きたい
-GitHubと連携したい
-無料で公開したい
-Cloudflareを使ってみたい
-
-
-開発環境
-
-WSL (Ubuntu)
-Hugo（extended版）
-テーマ：PaperMod
-GitHub
-Cloudflare Pages
-
-
-① Hugoのセットアップ
-まずはHugoをインストール。
-https://github.com/gohugoio/hugo/releases/を参考に最新版(v0.157.0)を使用。
-wget https://github.com/gohugoio/hugo/releases/download/v0.157.0/hugo_extended_0.157.0_linux-amd64.deb
-dpkg -i hugo_extended_0.157.0_linux-amd64.deb
-version確認
-$ hugo version
-hugo v0.157.0-7747abbb316b03c8f353fd3be62d5011fa883ee6&#43;extended linux/amd64 BuildDate=2026-02-25T16:38:33Z VendorInfo=gohugoio
-新規サイト作成
-hugo new site myblog
-cd myblog
-
-※ 注意
-最初、aptでインストールしたが、Hugo(v0.123.7)がインストールされてしまい、
-後述のPaperModの要求バージョン(v0.146.0以上)を満たさなかったので注意。
-$ sudo apt install hugo
-$ hugo version
-hugo v0.123.7&#43;extended linux/amd64 BuildDate=2025-07-18T03:41:49Z VendorInfo=ubuntu:0.123.7-1ubuntu0.3
-$ hugo server -D
-WARN Module &#34;PaperMod&#34; is not compatible with this Hugo version: Min 0.146.0;
-
-②テーマ導入（PaperMod）
-hugo公式ではテーマがたくさん紹介されている。">
+そのセットアップの記録。">
 <meta name="author" content="TMas">
 <link rel="canonical" href="http://localhost:1313/posts/hugo-cloudflare-blog/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.3d1893605aa8dff3a91e3e8725dde253150f5042f7c970739eb13c6248a0628f.css" integrity="sha256-PRiTYFqo3/OpHj6HJd3iUxUPUEL3yXBznrE8YkigYo8=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.39bc9285e08da991e3088ede1fa9877216c43bbe0672a719da2333e475c5f5e4.css" integrity="sha256-ObySheCNqZHjCI7eH6mHchbEO74GcqcZ2iMz5HXF9eQ=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
@@ -62,7 +20,7 @@ hugo公式ではテーマがたくさん紹介されている。">
 <link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/hugo-cloudflare-blog/">
+<link rel="alternate" hreflang="ja" href="http://localhost:1313/posts/hugo-cloudflare-blog/">
 <noscript>
     <style>
         #theme-toggle,
@@ -155,6 +113,11 @@ hugo公式ではテーマがたくさん紹介されている。">
                     <span>Categories</span>
                 </a>
             </li>
+            <li>
+                <a href="http://localhost:1313/search/" title="Search">
+                    <span>Search</span>
+                </a>
+            </li>
         </ul>
     </nav>
 </header>
@@ -166,7 +129,7 @@ hugo公式ではテーマがたくさん紹介されている。">
     <h1 class="post-title entry-hint-parent">
       Hugo &#43; Cloudflare Pagesでブログを公開するまでの記録
     </h1>
-    <div class="post-meta"><span title='2026-02-26 00:00:00 +0000 UTC'>February 26, 2026</span>&nbsp;·&nbsp;<span>1 分</span>&nbsp;·&nbsp;<span>TMas</span>
+    <div class="post-meta"><span title='2026-02-26 00:00:00 +0000 UTC'>2026年2月26日</span>&nbsp;·&nbsp;<span>3 分</span>&nbsp;·&nbsp;<span>1189 文字</span>&nbsp;·&nbsp;<span>TMas</span>
 
 </div>
   </header> <div class="toc">
@@ -322,12 +285,10 @@ hugo公式ではテーマがたくさん紹介されている。">
     <ul class="post-tags">
       <li><a href="http://localhost:1313/tags/hugo/">Hugo</a></li>
       <li><a href="http://localhost:1313/tags/cloudflare/">Cloudflare</a></li>
-      <li><a href="http://localhost:1313/tags/wsl/">Wsl</a></li>
-      <li><a href="http://localhost:1313/tags/blog/">Blog</a></li>
       <li><a href="http://localhost:1313/tags/github/">Github</a></li>
     </ul>
 <nav class="paginav">
-  <a class="prev" href="http://localhost:1313/posts/angels_and_deamons/">
+  <a class="prev" href="http://localhost:1313/posts/angels-and-deamons/">
     <span class="title">« 前へ</span>
     <br>
     <span>映画「天使と悪魔」の感想</span>
@@ -343,7 +304,7 @@ hugo公式ではテーマがたくさん紹介されている。">
 <ul class="share-buttons">
     <li>
         <a target="_blank" rel="noopener noreferrer" aria-label="share Hugo &#43; Cloudflare Pagesでブログを公開するまでの記録 on x"
-            href="https://x.com/intent/tweet/?text=Hugo%20%2b%20Cloudflare%20Pages%e3%81%a7%e3%83%96%e3%83%ad%e3%82%b0%e3%82%92%e5%85%ac%e9%96%8b%e3%81%99%e3%82%8b%e3%81%be%e3%81%a7%e3%81%ae%e8%a8%98%e9%8c%b2&amp;url=http%3a%2f%2flocalhost%3a1313%2fposts%2fhugo-cloudflare-blog%2f&amp;hashtags=hugo%2ccloudflare%2cwsl%2cblog%2cgithub">
+            href="https://x.com/intent/tweet/?text=Hugo%20%2b%20Cloudflare%20Pages%e3%81%a7%e3%83%96%e3%83%ad%e3%82%b0%e3%82%92%e5%85%ac%e9%96%8b%e3%81%99%e3%82%8b%e3%81%be%e3%81%a7%e3%81%ae%e8%a8%98%e9%8c%b2&amp;url=http%3a%2f%2flocalhost%3a1313%2fposts%2fhugo-cloudflare-blog%2f&amp;hashtags=hugo%2ccloudflare%2cgithub">
             <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
                 <path
                     d="M512 62.554 L 512 449.446 C 512 483.97 483.97 512 449.446 512 L 62.554 512 C 28.03 512 0 483.97 0 449.446 L 0 62.554 C 0 28.03 28.029 0 62.554 0 L 449.446 0 C 483.971 0 512 28.03 512 62.554 Z M 269.951 190.75 L 182.567 75.216 L 56 75.216 L 207.216 272.95 L 63.9 436.783 L 125.266 436.783 L 235.9 310.383 L 332.567 436.783 L 456 436.783 L 298.367 228.367 L 432.367 75.216 L 371.033 75.216 Z M 127.633 110 L 164.101 110 L 383.481 400.065 L 349.5 400.065 Z" />
