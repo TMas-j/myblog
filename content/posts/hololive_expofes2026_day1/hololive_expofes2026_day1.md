@@ -32,7 +32,7 @@ hololive 7th fes. Ridin' on Dreams」に参加しました。
 少し早めの15時半ごろに会場である幕張メッセに到着しました。
 
 <figure>
-    <img width="150" src="hololive_expofes2026_banner.jpg">
+    <img width="200" src="hololive_expofes2026_banner.jpg">
     <center><figcaption>会場入り口の垂れ幕の写真</figcaption></center>
 </figure>
 
@@ -45,7 +45,7 @@ hololive 7th fes. Ridin' on Dreams」に参加しました。
 行列に並びながら写真を撮ることができました。
 
 <figure>
-    <img width="300" src="hololive_expofes2026_pannel.jpg">
+    <img width="300" src="hololive_expofes2026_panel.jpg">
     <center><figcaption>等身大パネルの一部</figcaption></center>
 </figure>
 
