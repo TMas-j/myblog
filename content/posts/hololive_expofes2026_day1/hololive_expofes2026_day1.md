@@ -1,6 +1,6 @@
 ---
 title: "hololive SUPER EXPO 2026 & 7th fes. 初日参加の感想"
-date: 2026-03-09T09:36:36+09:00
+date: 2026-03-09
 draft: false
 slug: "hololive_expofes2026_day1"
 tags: ["ホロライブ", "ライブ"]
@@ -46,7 +46,7 @@ hololive 7th fes. Ridin' on Dreams」に参加しました。
 
 <figure>
     <img width="300" src="hololive_expofes2026_panel.jpg">
-    <center><figcaption>等身大パネルの一部</figcaption></center>
+    <center><figcaption>推しホロメンの等身大パネル</figcaption></center>
 </figure>
 
 さて、座席はチケットに記載されている **I-8ブロック** です。
@@ -67,9 +67,9 @@ hololive 7th fes. Ridin' on Dreams」に参加しました。
 
 フェスは全員で歌う **Color Rise Harmony** から始まりました。
 
-そして歌が始まると、なんとトロッコが登場！
+そして歌が始まると、なんと**トロッコ**が登場！
 
-トロッコ演出はこれまでのVTuberライブでも見たことはありましたし、
+トロッコ演出はこれまでのVTuberライブ配信でも見たことはありましたし、
 会場マップを見たときから「もしかして」と思っていましたが、
 自分が実際に会場で体験するのは初めてでした。
 
@@ -94,7 +94,7 @@ hololive 7th fes. Ridin' on Dreams」に参加しました。
 
 最推しの雪花ラミィちゃんの「**無敵☆本気だサバイバー！**」はやっぱり最高でした。
 
-ライブ映えする曲だと思っていましたが、
+曲が発表された時からライブ映えする曲だと思っていましたが、
 予想通り会場も自分も大盛り上がりでした。
 
 そして、兎田ぺこらちゃんの「**ぺこぺこ!!チキンフィーバー☆**」。
