@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo -- 0.157.0</generator>
     <language>ja</language>
-    <lastBuildDate>Thu, 26 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Mar 2026 10:36:42 +0900</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugoブログの見た目をカスタマイズする（PaperMod）</title>
+      <link>http://localhost:1313/posts/hugo-css-custom/</link>
+      <pubDate>Fri, 06 Mar 2026 10:36:42 +0900</pubDate>
+      <guid>http://localhost:1313/posts/hugo-css-custom/</guid>
+      <description>Hugoブログの見た目をカスタマイズする方法</description>
+    </item>
     <item>
       <title>Hugo &#43; Cloudflare Pagesでブログを公開するまでの記録</title>
       <link>http://localhost:1313/posts/hugo-cloudflare-blog/</link>

@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo -- 0.157.0</generator>
     <language>ja</language>
-    <lastBuildDate>Fri, 06 Mar 2026 10:36:42 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 09 Mar 2026 09:36:36 +0900</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>hololive SUPER EXPO 2026 &amp; 7th fes. 初日参加の感想</title>
+      <link>http://localhost:1313/posts/hololive_expofes2026_day1/</link>
+      <pubDate>Mon, 09 Mar 2026 09:36:36 +0900</pubDate>
+      <guid>http://localhost:1313/posts/hololive_expofes2026_day1/</guid>
+      <description>ホロライブのフェスの初日参加（Stage1）の感想</description>
+    </item>
     <item>
       <title>Hugoブログの見た目をカスタマイズする（PaperMod）</title>
       <link>http://localhost:1313/posts/hugo-css-custom/</link>

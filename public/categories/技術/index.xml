@@ -11,22 +11,21 @@
     </image>
     <generator>Hugo -- 0.157.0</generator>
     <language>ja</language>
-    <lastBuildDate>Thu, 05 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Mar 2026 10:36:42 +0900</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/%E6%8A%80%E8%A1%93/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugoブログの見た目をカスタマイズする（PaperMod）</title>
+      <link>http://localhost:1313/posts/hugo-css-custom/</link>
+      <pubDate>Fri, 06 Mar 2026 10:36:42 +0900</pubDate>
+      <guid>http://localhost:1313/posts/hugo-css-custom/</guid>
+      <description>Hugoブログの見た目をカスタマイズする方法</description>
+    </item>
     <item>
       <title>Unityで弾幕シューティングを作る方法① 基本の敵弾発射</title>
       <link>http://localhost:1313/posts/unity-danmaku-1/</link>
       <pubDate>Thu, 05 Mar 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/unity-danmaku-1/</guid>
-      <description>&lt;h2 id=&#34;はじめに&#34;&gt;はじめに&lt;/h2&gt;
-&lt;p&gt;これから何回かにかけてUnityでの弾幕の作り方を記事にしようと思っています。&lt;/p&gt;
-&lt;p&gt;今回は最初の一歩というとこで、&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Unityでプロジェクトの作成&lt;/li&gt;
-&lt;li&gt;GameObjectの作成（Player, Enemy, EnemyBullet）&lt;/li&gt;
-&lt;li&gt;基本的な動作のプログラム&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;をやっていこうと思います。&lt;/p&gt;</description>
+      <description>Unityで弾幕を作る方法 1回目</description>
     </item>
     <item>
       <title>Hugo &#43; Cloudflare Pagesでブログを公開するまでの記録</title>
