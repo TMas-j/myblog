@@ -24,6 +24,8 @@ hololive 7th fes. Ridin' on Dreams」に参加しました。
 
 この記事では、 **初日のフェス（Stage1）** に参加した感想を書いていきます。
 
+ [2日目のエキスポの感想はこちら](https://myblog-ee8.pages.dev/posts/hololive_expofes2026_day2/)
+
 ## 会場着～フェス開始まで
 
 会場は幕張メッセでした。
@@ -139,7 +141,8 @@ hololive 7th fes. Ridin' on Dreams」に参加しました。
 こういう機会がなければ出会えなかった楽曲も多かったと思います。
 
 とても楽しい時間でした。
-
 ありがとうございました。
 
-[def]: hololive_expofes2026_banner.jpg
+---
+
+ [2日目のエキスポの感想はこちら](https://myblog-ee8.pages.dev/posts/hololive_expofes2026_day2/)
