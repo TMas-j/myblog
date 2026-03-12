@@ -69,7 +69,7 @@ Kブロックだと11/17番目の入場になります。
 列の進みがかなり遅いです。
 
 <figure>
-    <img width="200" src="hololive_expofes2026_signwall.jpg">
+    <img width="300" src="hololive_expofes2026_signwall.jpg">
     <center><figcaption>たくさんのサインが書かれている</figcaption></center>
 </figure>
 
@@ -85,7 +85,7 @@ Kブロックだと11/17番目の入場になります。
 さっと見られるブースを軽く回ってから昼食にしました。
 
 <figure>
-    <img width="200" src="hololive_expofes2026_lunch.jpg">
+    <img width="300" src="hololive_expofes2026_lunch.jpg">
     <center><figcaption>お昼ご飯と特典</figcaption></center>
 </figure>
 
@@ -131,7 +131,7 @@ Kブロックだと11/17番目の入場になります。
 （全部見ようと思うと、軽く3時間は超えると思います）
 
 <figure>
-    <img width="200" src="hololive_expofes2026_nabe.jpg">
+    <img width="300" src="hololive_expofes2026_nabe.jpg">
     <center><figcaption>ぺこちゃんの鍋</figcaption></center>
 </figure>
 
