@@ -1,7 +1,7 @@
 ---
 title: "Unityで弾幕シューティングを作る方法② 自機狙い弾を作る"
 date: 2026-03-13
-draft: true
+draft: false
 slug: "unity-danmaku-2"
 tags: ["Unity", "ゲーム制作","シューティング", "弾幕"]
 categories: ["技術"]
