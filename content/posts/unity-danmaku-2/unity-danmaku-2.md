@@ -175,7 +175,7 @@ public void SetDirection(Vector2 dir)
 
 ## 動作確認
 
-EnemyBulletAimed.csをEnemyにアタッチして、
+EnemyShootingAimed.csをEnemyにアタッチして、
 Inspectorで必要な部分を指定します。
 
 EnemyのInspectorは以下のようになります。
