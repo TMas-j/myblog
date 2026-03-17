@@ -1,11 +1,14 @@
-{{ $svg := resources.Get "ogp/single.svg" | resources.ExecuteAsTemplate (printf "ogp/%s.svg" .File.BaseFileName) . }}
-{{ $img := $svg | resources.ToCSS | resources.Minify }}
+{{ if .IsPage }}
 
-<meta property="og:image" content="{{ $img.Permalink }}">
+{{ $svg := resources.Get "ogp/single.svg" }}
+{{ $svg = $svg | resources.ExecuteAsTemplate (printf "ogp/%s.svg" .File.BaseFileName) . }}
 
 <meta property="og:title" content="{{ .Title }}">
 <meta property="og:type" content="article">
 <meta property="og:url" content="{{ .Permalink }}">
 
+<meta property="og:image" content="{{ $svg.Permalink }}">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="{{ $svg.Permalink }}">
+
+{{ end }}
