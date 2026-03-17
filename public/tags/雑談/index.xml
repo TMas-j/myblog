@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>雑談 on TMasの遊びバ！ (ASO-VIVA!)</title>
-    <link>http://localhost:1313/tags/%E9%9B%91%E8%AB%87/</link>
+    <link>https://myblog-ee8.pages.dev/tags/%E9%9B%91%E8%AB%87/</link>
     <description>Recent content in 雑談 on TMasの遊びバ！ (ASO-VIVA!)</description>
     <image>
       <title>TMasの遊びバ！ (ASO-VIVA!)</title>
-      <url>http://localhost:1313/images/ogp.png</url>
-      <link>http://localhost:1313/images/ogp.png</link>
+      <url>https://myblog-ee8.pages.dev/images/ogp.png</url>
+      <link>https://myblog-ee8.pages.dev/images/ogp.png</link>
     </image>
     <generator>Hugo -- 0.157.0</generator>
     <language>ja</language>
     <lastBuildDate>Thu, 26 Feb 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/%E9%9B%91%E8%AB%87/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://myblog-ee8.pages.dev/tags/%E9%9B%91%E8%AB%87/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>はじめての投稿</title>
-      <link>http://localhost:1313/posts/first-post/</link>
+      <link>https://myblog-ee8.pages.dev/posts/first-post/</link>
       <pubDate>Thu, 26 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/first-post/</guid>
+      <guid>https://myblog-ee8.pages.dev/posts/first-post/</guid>
       <description>&lt;p&gt;こんにちは&lt;/p&gt;</description>
     </item>
   </channel>

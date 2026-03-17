@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>映画 on TMasの遊びバ！ (ASO-VIVA!)</title>
-    <link>http://localhost:1313/tags/%E6%98%A0%E7%94%BB/</link>
+    <link>https://myblog-ee8.pages.dev/tags/%E6%98%A0%E7%94%BB/</link>
     <description>Recent content in 映画 on TMasの遊びバ！ (ASO-VIVA!)</description>
     <image>
       <title>TMasの遊びバ！ (ASO-VIVA!)</title>
-      <url>http://localhost:1313/images/ogp.png</url>
-      <link>http://localhost:1313/images/ogp.png</link>
+      <url>https://myblog-ee8.pages.dev/images/ogp.png</url>
+      <link>https://myblog-ee8.pages.dev/images/ogp.png</link>
     </image>
     <generator>Hugo -- 0.157.0</generator>
     <language>ja</language>
     <lastBuildDate>Fri, 27 Feb 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/%E6%98%A0%E7%94%BB/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://myblog-ee8.pages.dev/tags/%E6%98%A0%E7%94%BB/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>映画「天使と悪魔」の感想</title>
-      <link>http://localhost:1313/posts/angels-and-deamons/</link>
+      <link>https://myblog-ee8.pages.dev/posts/angels-and-deamons/</link>
       <pubDate>Fri, 27 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/angels-and-deamons/</guid>
+      <guid>https://myblog-ee8.pages.dev/posts/angels-and-deamons/</guid>
       <description>&lt;p&gt;　映画「天使と悪魔」を観終わった。
 最初はミステリーと陰謀論的なワクワク感を楽しむつもりだったのに、最後に残ったのはずいぶん人間くさい余韻でした。&lt;/p&gt;</description>
     </item>
