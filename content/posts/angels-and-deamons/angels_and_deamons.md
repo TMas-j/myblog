@@ -2,7 +2,7 @@
 title: "映画「天使と悪魔」の感想"
 date: 2026-02-27
 draft: false
-slug: angels-and-deamons
+slug: "angels-and-deamons"
 tags: ["映画", "感想"]
 categories: ["エンタメ"]
 ---

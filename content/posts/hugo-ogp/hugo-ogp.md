@@ -1,5 +1,5 @@
 ---
-title: "HugoでOGP画像を"
+title: "HugoでOGP画像を自動生成"
 date: 2026-03-17
 draft: false
 slug: "hugo-ogp"

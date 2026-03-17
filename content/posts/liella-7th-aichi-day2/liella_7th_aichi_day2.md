@@ -2,7 +2,7 @@
 title: "Liella! 7thライブ 愛知公演 Day2 感想"
 date: 2026-03-03
 draft: false
-slug: liella-7th-aichi-day2
+slug: "liella-7th-aichi-day2"
 tags: ["ライブ","Liella!", "感想"]
 categories: ["エンタメ"]
 ---
