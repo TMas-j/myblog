@@ -1,7 +1,7 @@
 ---
 title: "HugoでOGP画像を"
 date: 2026-03-17
-draft: true
+draft: false
 slug: "hugo-ogp"
 tags: ["hugo"]
 categories: ["技術"]
