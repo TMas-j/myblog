@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>アニメ on TMasの遊びバ！ (ASO-VIVA!)</title>
-    <link>https://myblog-ee8.pages.dev/tags/%E3%82%A2%E3%83%8B%E3%83%A1/</link>
+    <link>http://localhost:1313/tags/%E3%82%A2%E3%83%8B%E3%83%A1/</link>
     <description>Recent content in アニメ on TMasの遊びバ！ (ASO-VIVA!)</description>
     <image>
       <title>TMasの遊びバ！ (ASO-VIVA!)</title>
-      <url>https://myblog-ee8.pages.dev/images/ogp.png</url>
-      <link>https://myblog-ee8.pages.dev/images/ogp.png</link>
+      <url>http://localhost:1313/images/ogp.png</url>
+      <link>http://localhost:1313/images/ogp.png</link>
     </image>
     <generator>Hugo -- 0.157.0</generator>
     <language>ja</language>
     <lastBuildDate>Wed, 04 Mar 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://myblog-ee8.pages.dev/tags/%E3%82%A2%E3%83%8B%E3%83%A1/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E3%82%A2%E3%83%8B%E3%83%A1/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>アニメ「アークナイツ」第1期の感想</title>
-      <link>https://myblog-ee8.pages.dev/posts/arknights-1st/</link>
+      <link>http://localhost:1313/posts/arknights-1st/</link>
       <pubDate>Wed, 04 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://myblog-ee8.pages.dev/posts/arknights-1st/</guid>
+      <guid>http://localhost:1313/posts/arknights-1st/</guid>
       <description>&lt;p&gt;2026年1月22日に公開されたゲーム「アークナイツ：エンドフィールド」にめちゃくちゃはまってます。&lt;/p&gt;
 &lt;p&gt;前作のゲーム「アークナイツ」は公開当初にそこそこやっていたけど、改めて前作の世界観が気になり、
 TVアニメ版「アークナイツ 【黎明前奏/PRELUDE TO DAWN】」を視聴してみた。&lt;/p&gt;</description>

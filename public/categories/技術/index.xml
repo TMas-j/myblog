@@ -2,57 +2,57 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>技術 on TMasの遊びバ！ (ASO-VIVA!)</title>
-    <link>https://myblog-ee8.pages.dev/categories/%E6%8A%80%E8%A1%93/</link>
+    <link>http://localhost:1313/categories/%E6%8A%80%E8%A1%93/</link>
     <description>Recent content in 技術 on TMasの遊びバ！ (ASO-VIVA!)</description>
     <image>
       <title>TMasの遊びバ！ (ASO-VIVA!)</title>
-      <url>https://myblog-ee8.pages.dev/images/ogp.png</url>
-      <link>https://myblog-ee8.pages.dev/images/ogp.png</link>
+      <url>http://localhost:1313/images/ogp.png</url>
+      <link>http://localhost:1313/images/ogp.png</link>
     </image>
     <generator>Hugo -- 0.157.0</generator>
     <language>ja</language>
     <lastBuildDate>Tue, 17 Mar 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://myblog-ee8.pages.dev/categories/%E6%8A%80%E8%A1%93/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/%E6%8A%80%E8%A1%93/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>HugoでOGP画像を自動生成</title>
-      <link>https://myblog-ee8.pages.dev/posts/hugo-ogp/</link>
+      <link>http://localhost:1313/posts/hugo-ogp/</link>
       <pubDate>Tue, 17 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://myblog-ee8.pages.dev/posts/hugo-ogp/</guid>
+      <guid>http://localhost:1313/posts/hugo-ogp/</guid>
       <description>HugoでOGP画像を自動生成する方法</description>
     </item>
     <item>
       <title>Unityで弾幕シューティングを作る方法③ Coroutineで弾幕パターンを作る</title>
-      <link>https://myblog-ee8.pages.dev/posts/unity-danmaku-3/</link>
+      <link>http://localhost:1313/posts/unity-danmaku-3/</link>
       <pubDate>Mon, 16 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://myblog-ee8.pages.dev/posts/unity-danmaku-3/</guid>
+      <guid>http://localhost:1313/posts/unity-danmaku-3/</guid>
       <description>Unityで弾幕を作る方法 3回目</description>
     </item>
     <item>
       <title>Unityで弾幕シューティングを作る方法② 自機狙い弾を作る</title>
-      <link>https://myblog-ee8.pages.dev/posts/unity-danmaku-2/</link>
+      <link>http://localhost:1313/posts/unity-danmaku-2/</link>
       <pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://myblog-ee8.pages.dev/posts/unity-danmaku-2/</guid>
+      <guid>http://localhost:1313/posts/unity-danmaku-2/</guid>
       <description>Unityで弾幕を作る方法 2回目</description>
     </item>
     <item>
       <title>Hugoブログの見た目をカスタマイズする（PaperMod）</title>
-      <link>https://myblog-ee8.pages.dev/posts/hugo-css-custom/</link>
+      <link>http://localhost:1313/posts/hugo-css-custom/</link>
       <pubDate>Fri, 06 Mar 2026 10:36:42 +0900</pubDate>
-      <guid>https://myblog-ee8.pages.dev/posts/hugo-css-custom/</guid>
+      <guid>http://localhost:1313/posts/hugo-css-custom/</guid>
       <description>Hugoブログの見た目をカスタマイズする方法</description>
     </item>
     <item>
       <title>Unityで弾幕シューティングを作る方法① 基本の敵弾発射</title>
-      <link>https://myblog-ee8.pages.dev/posts/unity-danmaku-1/</link>
+      <link>http://localhost:1313/posts/unity-danmaku-1/</link>
       <pubDate>Thu, 05 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://myblog-ee8.pages.dev/posts/unity-danmaku-1/</guid>
+      <guid>http://localhost:1313/posts/unity-danmaku-1/</guid>
       <description>Unityで弾幕を作る方法 1回目</description>
     </item>
     <item>
       <title>Hugo &#43; Cloudflare Pagesでブログを公開するまでの記録</title>
-      <link>https://myblog-ee8.pages.dev/posts/hugo-cloudflare-blog/</link>
+      <link>http://localhost:1313/posts/hugo-cloudflare-blog/</link>
       <pubDate>Thu, 26 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>https://myblog-ee8.pages.dev/posts/hugo-cloudflare-blog/</guid>
+      <guid>http://localhost:1313/posts/hugo-cloudflare-blog/</guid>
       <description>&lt;h2 id=&#34;はじめに&#34;&gt;はじめに&lt;/h2&gt;
 &lt;p&gt;静的サイトでブログを作ってみたいと思い、Hugoを使って構築し、最終的にCloudflare Pagesで公開するまでをやってみた。&lt;/p&gt;
 &lt;p&gt;そのセットアップの記録。&lt;/p&gt;</description>

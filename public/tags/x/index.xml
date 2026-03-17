@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>X on TMasの遊びバ！ (ASO-VIVA!)</title>
-    <link>https://myblog-ee8.pages.dev/tags/x/</link>
+    <link>http://localhost:1313/tags/x/</link>
     <description>Recent content in X on TMasの遊びバ！ (ASO-VIVA!)</description>
     <image>
       <title>TMasの遊びバ！ (ASO-VIVA!)</title>
-      <url>https://myblog-ee8.pages.dev/images/ogp.png</url>
-      <link>https://myblog-ee8.pages.dev/images/ogp.png</link>
+      <url>http://localhost:1313/images/ogp.png</url>
+      <link>http://localhost:1313/images/ogp.png</link>
     </image>
     <generator>Hugo -- 0.157.0</generator>
     <language>ja</language>
     <lastBuildDate>Fri, 06 Mar 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://myblog-ee8.pages.dev/tags/x/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/x/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>X（旧Twitter）アカウント作りました</title>
-      <link>https://myblog-ee8.pages.dev/posts/x-twitter/</link>
+      <link>http://localhost:1313/posts/x-twitter/</link>
       <pubDate>Fri, 06 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://myblog-ee8.pages.dev/posts/x-twitter/</guid>
+      <guid>http://localhost:1313/posts/x-twitter/</guid>
       <description>X（旧Twitter）アカウントの開設</description>
     </item>
   </channel>

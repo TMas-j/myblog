@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>ホロライブ on TMasの遊びバ！ (ASO-VIVA!)</title>
-    <link>https://myblog-ee8.pages.dev/tags/%E3%83%9B%E3%83%AD%E3%83%A9%E3%82%A4%E3%83%96/</link>
+    <link>http://localhost:1313/tags/%E3%83%9B%E3%83%AD%E3%83%A9%E3%82%A4%E3%83%96/</link>
     <description>Recent content in ホロライブ on TMasの遊びバ！ (ASO-VIVA!)</description>
     <image>
       <title>TMasの遊びバ！ (ASO-VIVA!)</title>
-      <url>https://myblog-ee8.pages.dev/images/ogp.png</url>
-      <link>https://myblog-ee8.pages.dev/images/ogp.png</link>
+      <url>http://localhost:1313/images/ogp.png</url>
+      <link>http://localhost:1313/images/ogp.png</link>
     </image>
     <generator>Hugo -- 0.157.0</generator>
     <language>ja</language>
     <lastBuildDate>Thu, 12 Mar 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://myblog-ee8.pages.dev/tags/%E3%83%9B%E3%83%AD%E3%83%A9%E3%82%A4%E3%83%96/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E3%83%9B%E3%83%AD%E3%83%A9%E3%82%A4%E3%83%96/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>hololive SUPER EXPO 2026 &amp; 7th fes. ２日目参加の感想</title>
-      <link>https://myblog-ee8.pages.dev/posts/hololive_expofes2026_day2/</link>
+      <link>http://localhost:1313/posts/hololive_expofes2026_day2/</link>
       <pubDate>Thu, 12 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://myblog-ee8.pages.dev/posts/hololive_expofes2026_day2/</guid>
+      <guid>http://localhost:1313/posts/hololive_expofes2026_day2/</guid>
       <description>ホロライブのフェスの２日目参加（エキスポ）の感想</description>
     </item>
     <item>
       <title>hololive SUPER EXPO 2026 &amp; 7th fes. 初日参加の感想</title>
-      <link>https://myblog-ee8.pages.dev/posts/hololive_expofes2026_day1/</link>
+      <link>http://localhost:1313/posts/hololive_expofes2026_day1/</link>
       <pubDate>Mon, 09 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://myblog-ee8.pages.dev/posts/hololive_expofes2026_day1/</guid>
+      <guid>http://localhost:1313/posts/hololive_expofes2026_day1/</guid>
       <description>ホロライブのフェスの初日参加（Stage1）の感想</description>
     </item>
   </channel>
