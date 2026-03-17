@@ -1,0 +1,31 @@
+<svg width="1200" height="630" xmlns="http://www.w3.org/2000/svg">
+
+<style>
+.title {
+  font-size: 64px;
+  fill: white;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.site {
+  font-size: 36px;
+  fill: #94a3b8;
+}
+</style>
+
+<rect width="1200" height="630" fill="#0f172a"/>
+
+<text x="80" y="120" class="site">
+TMasの遊びバ！
+</text>
+
+<text x="80" y="320" class="title">
+Unityで弾幕シューティングを作る方法③ Coroutineで弾幕パターンを作る
+</text>
+
+<text x="80" y="540" class="site">
+https://myblog-ee8.pages.dev/
+</text>
+
+</svg>
