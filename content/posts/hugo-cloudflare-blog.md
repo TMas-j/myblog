@@ -3,7 +3,7 @@ title: "Hugo + Cloudflare Pagesでブログを公開するまでの記録"
 date: 2026-02-26
 draft: false
 slug: hugo-cloudflare-blog
-tags: ["hugo", "cloudflare", "github"]
+tags: ["Hugo", "cloudflare", "github"]
 categories: ["技術"]
 ---
 
