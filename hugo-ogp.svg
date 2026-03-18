@@ -1,0 +1,67 @@
+<svg width="1200" height="630" xmlns="http://www.w3.org/2000/svg">
+
+<style>
+..bg {
+  fill: #0f172a;
+}
+
+.title {
+  font-size: 64px;
+  fill: white;
+  font-family: sans-serif;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.site {
+  font-size: 36px;
+  fill: #94a3b8;
+  font-family: sans-serif;
+}
+
+.url {
+  font-size: 28px;
+  fill: #64748b;
+  font-family: sans-serif;
+}
+</style>
+
+<!-- 背景 -->
+<rect width="1200" height="630" class="bg"/>
+
+<!-- グラデーションアクセント -->
+<defs>
+  <linearGradient id="grad" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#38bdf8"/>
+    <stop offset="100%" stop-color="#6366f1"/>
+  </linearGradient>
+</defs>
+
+<rect x="0" y="0" width="1200" height="8" fill="url(#grad)"/>
+
+<!-- サイト名 -->
+<text x="80" y="110" class="site">
+TMasの遊びバ！
+</text>
+
+<!-- タイトル（自動折り返し風） -->
+<foreignObject x="80" y="180" width="1040" height="280">
+  <div xmlns="http://www.w3.org/1999/xhtml"
+       style="
+         font-family: 'NotoSansJP', sans-serif;
+         font-size: 64px;
+         font-weight: 700;
+         color: white;
+         line-height: 1.3;
+         word-break: break-word;
+       ">
+    HugoでOGP画像を自動生成　修正編
+  </div>
+</foreignObject>
+
+<!-- URL -->
+<text x="80" y="560" class="url">
+https://myblog-ee8.pages.dev/
+</text>
+
+</svg>

@@ -1,7 +1,7 @@
 {{ if .IsPage }}
 
 {{ with resources.Get "ogp/single.svg" }}
-{{ $svg := . | resources.ExecuteAsTemplate (printf "ogp/%s.svg" $.File.BaseFileName) $ }}
+{{ $svg := . | resources.ExecuteAsTemplate (printf "ogp/%s.png" $.File.BaseFileName) $ }}
 
 <meta property="og:title" content="{{ $.Title }}">
 <meta property="og:description" content="{{ $.Description }}">
