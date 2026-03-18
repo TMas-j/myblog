@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Github on TMasの遊びバ！ (ASO-VIVA!)</title>
-    <link>http://localhost:1313/tags/github/</link>
+    <link>https://myblog-ee8.pages.dev/tags/github/</link>
     <description>Recent content in Github on TMasの遊びバ！ (ASO-VIVA!)</description>
     <image>
       <title>TMasの遊びバ！ (ASO-VIVA!)</title>
-      <url>http://localhost:1313/images/ogp.png</url>
-      <link>http://localhost:1313/images/ogp.png</link>
+      <url>https://myblog-ee8.pages.dev/images/ogp.png</url>
+      <link>https://myblog-ee8.pages.dev/images/ogp.png</link>
     </image>
     <generator>Hugo -- 0.157.0</generator>
     <language>ja</language>
     <lastBuildDate>Thu, 26 Feb 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://myblog-ee8.pages.dev/tags/github/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo &#43; Cloudflare Pagesでブログを公開するまでの記録</title>
-      <link>http://localhost:1313/posts/hugo-cloudflare-blog/</link>
+      <link>https://myblog-ee8.pages.dev/posts/hugo-cloudflare-blog/</link>
       <pubDate>Thu, 26 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/hugo-cloudflare-blog/</guid>
+      <guid>https://myblog-ee8.pages.dev/posts/hugo-cloudflare-blog/</guid>
       <description>&lt;h2 id=&#34;はじめに&#34;&gt;はじめに&lt;/h2&gt;
 &lt;p&gt;静的サイトでブログを作ってみたいと思い、Hugoを使って構築し、最終的にCloudflare Pagesで公開するまでをやってみた。&lt;/p&gt;
 &lt;p&gt;そのセットアップの記録。&lt;/p&gt;</description>

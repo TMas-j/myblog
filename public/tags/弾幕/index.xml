@@ -2,36 +2,36 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>弾幕 on TMasの遊びバ！ (ASO-VIVA!)</title>
-    <link>http://localhost:1313/tags/%E5%BC%BE%E5%B9%95/</link>
+    <link>https://myblog-ee8.pages.dev/tags/%E5%BC%BE%E5%B9%95/</link>
     <description>Recent content in 弾幕 on TMasの遊びバ！ (ASO-VIVA!)</description>
     <image>
       <title>TMasの遊びバ！ (ASO-VIVA!)</title>
-      <url>http://localhost:1313/images/ogp.png</url>
-      <link>http://localhost:1313/images/ogp.png</link>
+      <url>https://myblog-ee8.pages.dev/images/ogp.png</url>
+      <link>https://myblog-ee8.pages.dev/images/ogp.png</link>
     </image>
     <generator>Hugo -- 0.157.0</generator>
     <language>ja</language>
     <lastBuildDate>Mon, 16 Mar 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/%E5%BC%BE%E5%B9%95/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://myblog-ee8.pages.dev/tags/%E5%BC%BE%E5%B9%95/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Unityで弾幕シューティングを作る方法③ Coroutineで弾幕パターンを作る</title>
-      <link>http://localhost:1313/posts/unity-danmaku-3/</link>
+      <link>https://myblog-ee8.pages.dev/posts/unity-danmaku-3/</link>
       <pubDate>Mon, 16 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/unity-danmaku-3/</guid>
+      <guid>https://myblog-ee8.pages.dev/posts/unity-danmaku-3/</guid>
       <description>Unityで弾幕を作る方法 3回目</description>
     </item>
     <item>
       <title>Unityで弾幕シューティングを作る方法② 自機狙い弾を作る</title>
-      <link>http://localhost:1313/posts/unity-danmaku-2/</link>
+      <link>https://myblog-ee8.pages.dev/posts/unity-danmaku-2/</link>
       <pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/unity-danmaku-2/</guid>
+      <guid>https://myblog-ee8.pages.dev/posts/unity-danmaku-2/</guid>
       <description>Unityで弾幕を作る方法 2回目</description>
     </item>
     <item>
       <title>Unityで弾幕シューティングを作る方法① 基本の敵弾発射</title>
-      <link>http://localhost:1313/posts/unity-danmaku-1/</link>
+      <link>https://myblog-ee8.pages.dev/posts/unity-danmaku-1/</link>
       <pubDate>Thu, 05 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/unity-danmaku-1/</guid>
+      <guid>https://myblog-ee8.pages.dev/posts/unity-danmaku-1/</guid>
       <description>Unityで弾幕を作る方法 1回目</description>
     </item>
   </channel>
