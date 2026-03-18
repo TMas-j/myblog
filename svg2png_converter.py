@@ -6,6 +6,7 @@ CANVAS_HEIGHT = 630
 BG_COLOR = "#0f172a"
 
 SVG_DIR = Path("public/ogp")
+PNG_DIR = Path("static/ogp")
 
 
 def svg_to_png(svg_content: str, output_path: str):
@@ -53,10 +54,12 @@ def main():
         print(f"SVGファイルが見つかりません: {SVG_DIR}")
         return
 
+    PNG_DIR.mkdir(parents=True, exist_ok=True)
+
     converted = 0
     skipped = 0
     for svg_path in sorted(svg_files):
-        png_path = svg_path.with_suffix(".png")
+        png_path = PNG_DIR / svg_path.with_suffix(".png").name
         if png_path.exists():
             print(f"スキップ: {png_path.name} (既に存在)")
             skipped += 1
