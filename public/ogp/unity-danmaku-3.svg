@@ -90,7 +90,7 @@ TMasの遊びバ！
 
 <!-- 下部ステータス -->
 <text x="80" y="580" class="url">
-https://myblog-ee8.pages.dev/ // STATUS: ACTIVE
+http://localhost:1313/ // STATUS: ACTIVE
 </text>
 
 </svg>

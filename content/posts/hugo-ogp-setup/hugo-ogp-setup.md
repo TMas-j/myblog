@@ -3,7 +3,7 @@ title: "HugoでOGP画像を自動生成する方法【SVG→PNGまで解説】"
 date: 2026-03-19
 draft: false
 slug: "hugo-ogp-setup"
-tags: ["Hugo"]
+tags: ["Hugo", "X"]
 categories: ["技術"]
 description: "HugoでOGPを表示できるようにした"
 ---
