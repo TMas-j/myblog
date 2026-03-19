@@ -88,6 +88,14 @@ body {
   border-radius: 4px;
 }
 
+/* ダークモード */
+@media (prefers-color-scheme: dark) {
+  .post-content code {
+    background: #1f2937;
+    color: #e5e7eb;
+  }
+}
+
 
 /* =========================
    表
