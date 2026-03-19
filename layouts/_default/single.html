@@ -44,20 +44,27 @@
 
   <footer class="post-footer">
     {{ if .Params.tags }}
-    <div class="related-posts">
-      <h3>関連記事</h3>
-      <ul>
-        {{ $current := . }}
-        {{ range first 5 (where .Site.RegularPages "Params.tags" "intersect" .Params.tags) }}
-          {{ if ne .Permalink $current.Permalink }}
-          <li>
-            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-          </li>
+<div class="related-posts">
+  <h3>関連記事</h3>
+
+  <div class="related-grid">
+    {{ $current := . }}
+    {{ range first 4 (where .Site.RegularPages "Params.tags" "intersect" .Params.tags) }}
+      {{ if ne .Permalink $current.Permalink }}
+      <a href="{{ .RelPermalink }}" class="related-card">
+        <div class="related-card-content">
+          <h4 class="related-title">{{ .Title }}</h4>
+          {{ with .Description }}
+            <p class="related-desc">{{ . }}</p>
           {{ end }}
-        {{ end }}
-      </ul>
-    </div>
+        </div>
+      </a>
+      {{ end }}
     {{ end }}
+  </div>
+
+</div>
+{{ end }}
 
     {{- $tags := .Language.Params.Taxonomies.tag | default "tags" }}
     <ul class="post-tags">
